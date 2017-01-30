@@ -1,0 +1,2424 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="0" failures="0" hostname="LT13O-0005" id="0" name="ExtractTest" package="twitter" skipped="0" tests="12" time="0.102" timestamp="2016-11-01T10:58:36">
+      <properties>
+          <property name="java.vendor" value="Oracle Corporation" />
+
+          <property name="sun.java.launcher" value="SUN_STANDARD" />
+
+          <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+
+          <property name="build.sysclasspath" value="ignore" />
+
+          <property name="os.name" value="Windows 7" />
+
+          <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_101\lib\resources.jar;C:\Program Files\Java\jre1.8.0_101\lib\rt.jar;C:\Program Files\Java\jre1.8.0_101\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_101\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_101\lib\jce.jar;C:\Program Files\Java\jre1.8.0_101\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_101\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_101\classes" />
+
+          <property name="sun.desktop" value="windows" />
+
+          <property name="final.grading" value="true" />
+
+          <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+
+          <property name="ant.home" value="C:\Users\accl\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327" />
+
+          <property name="java.runtime.version" value="1.8.0_101-b13" />
+
+          <property name="user.name" value="accl" />
+
+          <property name="ant.build.javac.target" value="1.8" />
+
+          <property name="user.language" value="es" />
+
+          <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_101\bin" />
+
+          <property name="grader.report.file" value="my-grader-report.xml" />
+
+          <property name="ant.project.default-target" value="all" />
+
+          <property name="java.version" value="1.8.0_101" />
+
+          <property name="user.timezone" value="" />
+
+          <property name="sun.arch.data.model" value="64" />
+
+          <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.8.0_101\lib\endorsed" />
+
+          <property name="sun.cpu.isalist" value="amd64" />
+
+          <property name="sun.jnu.encoding" value="Cp1252" />
+
+          <property name="file.encoding.pkg" value="sun.io" />
+
+          <property name="file.separator" value="\" />
+
+          <property name="java.specification.name" value="Java Platform API Specification" />
+
+          <property name="java.class.version" value="52.0" />
+
+          <property name="user.country" value="ES" />
+
+          <property name="java.home" value="C:\Program Files\Java\jre1.8.0_101" />
+
+          <property name="java.vm.info" value="mixed mode" />
+
+          <property name="ant.file" value="C:\Users\accl\workspace\ps2-tweets\grader.xml" />
+
+          <property name="os.version" value="6.1" />
+
+          <property name="final.grader.jar" value="ps2-final-grader.jar" />
+
+          <property name="path.separator" value=";" />
+
+          <property name="java.vm.version" value="25.101-b13" />
+
+          <property name="user.variant" value="" />
+
+          <property name="ant.library.dir" value="C:\Users\accl\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib" />
+
+          <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+
+          <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+
+          <property name="user.script" value="" />
+
+          <property name="user.home" value="C:\Users\accl" />
+
+          <property name="java.specification.vendor" value="Oracle Corporation" />
+
+          <property name="which.tests.ran" value="BETA + FINAL" />
+
+          <property name="java.library.path" value="C:\Program Files\Java\jre1.8.0_101\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_101/bin/server;C:/Program Files/Java/jre1.8.0_101/bin;C:/Program Files/Java/jre1.8.0_101/lib/amd64;C:\adb_tool;C:\Program Files (x86)\Mozilla Firefox;C:\PROGRAMDATA\ORACLE\JAVA\JAVAPATH;C:\APP\ORACLE11\PRODUCT\11.2.0\CLIENT_1\BIN;C:\PROGRAM FILES (X86)\INTEL\ICLS CLIENT\;C:\PROGRAM FILES\INTEL\ICLS CLIENT\;C:\PROGRAM FILES\DELL\DW WLAN CARD;C:\Windows\SYSTEM32;C:\Windows;C:\Windows\SYSTEM32\WBEM;C:\Windows\SYSTEM32\WINDOWSPOWERSHELL\V1.0\;;C:\PROGRAM FILES\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\DAL;C:\PROGRAM FILES\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\IPT;C:\PROGRAM FILES (X86)\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\DAL;C:\PROGRAM FILES (X86)\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\IPT;C:\PROGRAM FILES (X86)\GS\GS9.02\BIN;C:\PROGRAM FILES\COMMON FILES\ALADDIN SHARED\ETOKEN\PKICLIENT\X64;C:\PROGRAM FILES\COMMON FILES\ALADDIN SHARED\ETOKEN\PKICLIENT\X32;C:\PROGRAM FILES (X86)\INTEL\OPENCL SDK\2.0\BIN\X86;C:\PROGRAM FILES (X86)\INTEL\OPENCL SDK\2.0\BIN\X64;C:\Program Files\WIDCOMM\Bluetooth Software\;C:\Program Files\WIDCOMM\Bluetooth Sof;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\TortoiseSVN\bin;c:\users\accl\appdata\local\enthought\canopy\user\scripts;C:\Users\accl\AppData\Local\Enthought\Canopy\User;C:\Users\accl\AppData\Local\Enthought\Canopy\User\Scripts;C:\Anaconda2;C:\Anaconda2\Scripts;C:\Anaconda2\Library\bin;C:\Anaconda22;C:\Anaconda22\Scripts;C:\Anaconda22\Library\bin;C:\Program Files (x86)\Calibre2\;C:\Users\accl\AppData\Local\Programs\Python\Python35-32\Scripts\;C:\Users\accl\AppData\Local\Programs\Python\Python35-32\;c:\users\accl\appdata\local\enthought\canopy\user\scripts;C:\Users\accl\AppData\Local\Enthought\Canopy\User;C:\Users\accl\AppData\Local\Enthought\Canopy\User\Scripts;C:\Users\accl\Desktop;;." />
+
+          <property name="java.vendor.url" value="http://java.oracle.com/" />
+
+          <property name="java.vm.vendor" value="Oracle Corporation" />
+
+          <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+
+          <property name="beta.grader.jar" value="ps2-beta-grader.jar" />
+
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner twitter.ExtractTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\accl\workspace\ps2-tweets\.grader\TEST-twitter.ExtractTest.xml crashfile=C:\Users\accl\workspace\ps2-tweets\.grader\junitvmwatcher39667633458674100.properties propsfile=C:\Users\accl\workspace\ps2-tweets\.grader\junit6932838214504182602.properties" />
+
+          <property name="java.class.path" value="C:\Users\accl\workspace\ps2-tweets\lib\junit-4.12.jar;C:\Users\accl\workspace\ps2-tweets\lib\hamcrest-core-1.3.jar;C:\Users\accl\workspace\ps2-tweets\.grader\bin-tests-student;C:\Users\accl\workspace\ps2-tweets\.grader\bin-impls-student;C:\Users\accl\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-launcher.jar;C:\Users\accl\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant.jar;C:\Users\accl\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-junit.jar;C:\Users\accl\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-junit4.jar" />
+
+          <property name="ant.version" value="Apache Ant(TM) version 1.9.6 compiled on June 29 2015" />
+
+          <property name="project.name" value="ps2-tweets" />
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+
+          <property name="java.vm.specification.version" value="1.8" />
+
+          <property name="sun.cpu.endian" value="little" />
+
+          <property name="didit.desc" value="Running your tests on your implementation." />
+
+          <property name="sun.os.patch.level" value="Service Pack 1" />
+
+          <property name="java.io.tmpdir" value="C:\Users\accl\AppData\Local\Temp\" />
+
+          <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+
+          <property name="os.arch" value="amd64" />
+
+          <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+
+          <property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_101\lib\ext;C:\Windows\Sun\Java\lib\ext" />
+
+          <property name="user.dir" value="C:\Users\accl\workspace\ps2-tweets" />
+
+          <property name="line.separator" value="&#xd;&#xa;" />
+
+          <property name="zipfile" value="my-submission.zip" />
+
+          <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+
+          <property name="problem.set" value="ps2" />
+
+          <property name="basedir" value="C:\Users\accl\workspace\ps2-tweets" />
+
+          <property name="ant.java.version" value="1.8" />
+
+          <property name="ant.core.lib" value="C:\Users\accl\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant.jar" />
+
+          <property name="file.encoding" value="Cp1252" />
+
+          <property name="java.specification.version" value="1.8" />
+
+          <property name="grader.dir" value=".grader" />
+
+          <property name="ant.project.invoked-targets" value="all" />
+
+      </properties>
+
+      <testcase classname="twitter.ExtractTest" name="testGetOneMentionedUser" time="0.002" />
+
+      <testcase classname="twitter.ExtractTest" name="testGetSameUserMentionedValidUsername" time="0.0" />
+
+      <testcase classname="twitter.ExtractTest" name="testGetSameUserMentionedInvalidUsername2" time="0.001" />
+
+      <testcase classname="twitter.ExtractTest" name="testGetSameUserMentionedInvalidUsername3" time="0.0" />
+
+      <testcase classname="twitter.ExtractTest" name="testGetMentionedUsersNoMention" time="0.0" />
+
+      <testcase classname="twitter.ExtractTest" name="testGetTimespanTwoTweets" time="0.0" />
+
+      <testcase classname="twitter.ExtractTest" name="testGetSameUserMentionedstartingWithUsername" time="0.001" />
+
+      <testcase classname="twitter.ExtractTest" name="testGetTwoMentionedUser" time="0.001" />
+
+      <testcase classname="twitter.ExtractTest" name="testAssertionsEnabled" time="0.0" />
+
+      <testcase classname="twitter.ExtractTest" name="testGetSameUserMentionedInvalidUsername" time="0.0" />
+
+      <testcase classname="twitter.ExtractTest" name="testBoundaryInstants" time="0.0" />
+
+      <testcase classname="twitter.ExtractTest" name="testGetSameUserMentionedTwiceWithCaps" time="0.0" />
+
+      <system-out><![CDATA[testGetSameUserMentionedInvalidUsername2 []
+testGetSameUserMentionedInvalidUsername2 []
+]]></system-out>
+
+      <system-err><![CDATA[]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="LT13O-0005" id="1" name="FilterTest" package="twitter" skipped="0" tests="9" time="0.093" timestamp="2016-11-01T10:58:36">
+      <properties>
+          <property name="java.vendor" value="Oracle Corporation" />
+
+          <property name="sun.java.launcher" value="SUN_STANDARD" />
+
+          <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+
+          <property name="build.sysclasspath" value="ignore" />
+
+          <property name="os.name" value="Windows 7" />
+
+          <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_101\lib\resources.jar;C:\Program Files\Java\jre1.8.0_101\lib\rt.jar;C:\Program Files\Java\jre1.8.0_101\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_101\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_101\lib\jce.jar;C:\Program Files\Java\jre1.8.0_101\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_101\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_101\classes" />
+
+          <property name="sun.desktop" value="windows" />
+
+          <property name="final.grading" value="true" />
+
+          <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+
+          <property name="ant.home" value="C:\Users\accl\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327" />
+
+          <property name="java.runtime.version" value="1.8.0_101-b13" />
+
+          <property name="user.name" value="accl" />
+
+          <property name="ant.build.javac.target" value="1.8" />
+
+          <property name="user.language" value="es" />
+
+          <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_101\bin" />
+
+          <property name="grader.report.file" value="my-grader-report.xml" />
+
+          <property name="ant.project.default-target" value="all" />
+
+          <property name="java.version" value="1.8.0_101" />
+
+          <property name="user.timezone" value="" />
+
+          <property name="sun.arch.data.model" value="64" />
+
+          <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.8.0_101\lib\endorsed" />
+
+          <property name="sun.cpu.isalist" value="amd64" />
+
+          <property name="sun.jnu.encoding" value="Cp1252" />
+
+          <property name="file.encoding.pkg" value="sun.io" />
+
+          <property name="file.separator" value="\" />
+
+          <property name="java.specification.name" value="Java Platform API Specification" />
+
+          <property name="java.class.version" value="52.0" />
+
+          <property name="user.country" value="ES" />
+
+          <property name="java.home" value="C:\Program Files\Java\jre1.8.0_101" />
+
+          <property name="java.vm.info" value="mixed mode" />
+
+          <property name="ant.file" value="C:\Users\accl\workspace\ps2-tweets\grader.xml" />
+
+          <property name="os.version" value="6.1" />
+
+          <property name="final.grader.jar" value="ps2-final-grader.jar" />
+
+          <property name="path.separator" value=";" />
+
+          <property name="java.vm.version" value="25.101-b13" />
+
+          <property name="user.variant" value="" />
+
+          <property name="ant.library.dir" value="C:\Users\accl\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib" />
+
+          <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+
+          <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+
+          <property name="user.script" value="" />
+
+          <property name="user.home" value="C:\Users\accl" />
+
+          <property name="java.specification.vendor" value="Oracle Corporation" />
+
+          <property name="which.tests.ran" value="BETA + FINAL" />
+
+          <property name="java.library.path" value="C:\Program Files\Java\jre1.8.0_101\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_101/bin/server;C:/Program Files/Java/jre1.8.0_101/bin;C:/Program Files/Java/jre1.8.0_101/lib/amd64;C:\adb_tool;C:\Program Files (x86)\Mozilla Firefox;C:\PROGRAMDATA\ORACLE\JAVA\JAVAPATH;C:\APP\ORACLE11\PRODUCT\11.2.0\CLIENT_1\BIN;C:\PROGRAM FILES (X86)\INTEL\ICLS CLIENT\;C:\PROGRAM FILES\INTEL\ICLS CLIENT\;C:\PROGRAM FILES\DELL\DW WLAN CARD;C:\Windows\SYSTEM32;C:\Windows;C:\Windows\SYSTEM32\WBEM;C:\Windows\SYSTEM32\WINDOWSPOWERSHELL\V1.0\;;C:\PROGRAM FILES\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\DAL;C:\PROGRAM FILES\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\IPT;C:\PROGRAM FILES (X86)\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\DAL;C:\PROGRAM FILES (X86)\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\IPT;C:\PROGRAM FILES (X86)\GS\GS9.02\BIN;C:\PROGRAM FILES\COMMON FILES\ALADDIN SHARED\ETOKEN\PKICLIENT\X64;C:\PROGRAM FILES\COMMON FILES\ALADDIN SHARED\ETOKEN\PKICLIENT\X32;C:\PROGRAM FILES (X86)\INTEL\OPENCL SDK\2.0\BIN\X86;C:\PROGRAM FILES (X86)\INTEL\OPENCL SDK\2.0\BIN\X64;C:\Program Files\WIDCOMM\Bluetooth Software\;C:\Program Files\WIDCOMM\Bluetooth Sof;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\TortoiseSVN\bin;c:\users\accl\appdata\local\enthought\canopy\user\scripts;C:\Users\accl\AppData\Local\Enthought\Canopy\User;C:\Users\accl\AppData\Local\Enthought\Canopy\User\Scripts;C:\Anaconda2;C:\Anaconda2\Scripts;C:\Anaconda2\Library\bin;C:\Anaconda22;C:\Anaconda22\Scripts;C:\Anaconda22\Library\bin;C:\Program Files (x86)\Calibre2\;C:\Users\accl\AppData\Local\Programs\Python\Python35-32\Scripts\;C:\Users\accl\AppData\Local\Programs\Python\Python35-32\;c:\users\accl\appdata\local\enthought\canopy\user\scripts;C:\Users\accl\AppData\Local\Enthought\Canopy\User;C:\Users\accl\AppData\Local\Enthought\Canopy\User\Scripts;C:\Users\accl\Desktop;;." />
+
+          <property name="java.vendor.url" value="http://java.oracle.com/" />
+
+          <property name="java.vm.vendor" value="Oracle Corporation" />
+
+          <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+
+          <property name="beta.grader.jar" value="ps2-beta-grader.jar" />
+
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner twitter.FilterTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\accl\workspace\ps2-tweets\.grader\TEST-twitter.FilterTest.xml crashfile=C:\Users\accl\workspace\ps2-tweets\.grader\junitvmwatcher8585201646459824205.properties propsfile=C:\Users\accl\workspace\ps2-tweets\.grader\junit3195107419390243341.properties" />
+
+          <property name="java.class.path" value="C:\Users\accl\workspace\ps2-tweets\lib\junit-4.12.jar;C:\Users\accl\workspace\ps2-tweets\lib\hamcrest-core-1.3.jar;C:\Users\accl\workspace\ps2-tweets\.grader\bin-tests-student;C:\Users\accl\workspace\ps2-tweets\.grader\bin-impls-student;C:\Users\accl\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-launcher.jar;C:\Users\accl\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant.jar;C:\Users\accl\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-junit.jar;C:\Users\accl\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-junit4.jar" />
+
+          <property name="ant.version" value="Apache Ant(TM) version 1.9.6 compiled on June 29 2015" />
+
+          <property name="project.name" value="ps2-tweets" />
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+
+          <property name="java.vm.specification.version" value="1.8" />
+
+          <property name="sun.cpu.endian" value="little" />
+
+          <property name="didit.desc" value="Running your tests on your implementation." />
+
+          <property name="sun.os.patch.level" value="Service Pack 1" />
+
+          <property name="java.io.tmpdir" value="C:\Users\accl\AppData\Local\Temp\" />
+
+          <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+
+          <property name="os.arch" value="amd64" />
+
+          <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+
+          <property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_101\lib\ext;C:\Windows\Sun\Java\lib\ext" />
+
+          <property name="user.dir" value="C:\Users\accl\workspace\ps2-tweets" />
+
+          <property name="line.separator" value="&#xd;&#xa;" />
+
+          <property name="zipfile" value="my-submission.zip" />
+
+          <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+
+          <property name="problem.set" value="ps2" />
+
+          <property name="basedir" value="C:\Users\accl\workspace\ps2-tweets" />
+
+          <property name="ant.java.version" value="1.8" />
+
+          <property name="ant.core.lib" value="C:\Users\accl\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant.jar" />
+
+          <property name="file.encoding" value="Cp1252" />
+
+          <property name="java.specification.version" value="1.8" />
+
+          <property name="grader.dir" value=".grader" />
+
+          <property name="ant.project.invoked-targets" value="all" />
+
+      </properties>
+
+      <testcase classname="twitter.FilterTest" name="testWrittenByMultipleTweetsMultipleResult" time="0.002" />
+
+      <testcase classname="twitter.FilterTest" name="testContainingCaps" time="0.0" />
+
+      <testcase classname="twitter.FilterTest" name="testWrittenByEmpty" time="0.0" />
+
+      <testcase classname="twitter.FilterTest" name="testInTimespanMultipleTweetsNoResults" time="0.001" />
+
+      <testcase classname="twitter.FilterTest" name="testContaining" time="0.0" />
+
+      <testcase classname="twitter.FilterTest" name="testAssertionsEnabled" time="0.0" />
+
+      <testcase classname="twitter.FilterTest" name="testWrittenByMultipleTweetsSingleResult" time="0.0" />
+
+      <testcase classname="twitter.FilterTest" name="testInTimespanMultipleTweetsMultipleResults" time="0.0" />
+
+      <testcase classname="twitter.FilterTest" name="testNotContaining" time="0.0" />
+
+      <system-out><![CDATA[]]></system-out>
+
+      <system-err><![CDATA[]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="LT13O-0005" id="2" name="SocialNetworkTest" package="twitter" skipped="0" tests="6" time="0.099" timestamp="2016-11-01T10:58:37">
+      <properties>
+          <property name="java.vendor" value="Oracle Corporation" />
+
+          <property name="sun.java.launcher" value="SUN_STANDARD" />
+
+          <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+
+          <property name="build.sysclasspath" value="ignore" />
+
+          <property name="os.name" value="Windows 7" />
+
+          <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_101\lib\resources.jar;C:\Program Files\Java\jre1.8.0_101\lib\rt.jar;C:\Program Files\Java\jre1.8.0_101\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_101\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_101\lib\jce.jar;C:\Program Files\Java\jre1.8.0_101\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_101\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_101\classes" />
+
+          <property name="sun.desktop" value="windows" />
+
+          <property name="final.grading" value="true" />
+
+          <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+
+          <property name="ant.home" value="C:\Users\accl\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327" />
+
+          <property name="java.runtime.version" value="1.8.0_101-b13" />
+
+          <property name="user.name" value="accl" />
+
+          <property name="ant.build.javac.target" value="1.8" />
+
+          <property name="user.language" value="es" />
+
+          <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_101\bin" />
+
+          <property name="grader.report.file" value="my-grader-report.xml" />
+
+          <property name="ant.project.default-target" value="all" />
+
+          <property name="java.version" value="1.8.0_101" />
+
+          <property name="user.timezone" value="" />
+
+          <property name="sun.arch.data.model" value="64" />
+
+          <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.8.0_101\lib\endorsed" />
+
+          <property name="sun.cpu.isalist" value="amd64" />
+
+          <property name="sun.jnu.encoding" value="Cp1252" />
+
+          <property name="file.encoding.pkg" value="sun.io" />
+
+          <property name="file.separator" value="\" />
+
+          <property name="java.specification.name" value="Java Platform API Specification" />
+
+          <property name="java.class.version" value="52.0" />
+
+          <property name="user.country" value="ES" />
+
+          <property name="java.home" value="C:\Program Files\Java\jre1.8.0_101" />
+
+          <property name="java.vm.info" value="mixed mode" />
+
+          <property name="ant.file" value="C:\Users\accl\workspace\ps2-tweets\grader.xml" />
+
+          <property name="os.version" value="6.1" />
+
+          <property name="final.grader.jar" value="ps2-final-grader.jar" />
+
+          <property name="path.separator" value=";" />
+
+          <property name="java.vm.version" value="25.101-b13" />
+
+          <property name="user.variant" value="" />
+
+          <property name="ant.library.dir" value="C:\Users\accl\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib" />
+
+          <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+
+          <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+
+          <property name="user.script" value="" />
+
+          <property name="user.home" value="C:\Users\accl" />
+
+          <property name="java.specification.vendor" value="Oracle Corporation" />
+
+          <property name="which.tests.ran" value="BETA + FINAL" />
+
+          <property name="java.library.path" value="C:\Program Files\Java\jre1.8.0_101\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_101/bin/server;C:/Program Files/Java/jre1.8.0_101/bin;C:/Program Files/Java/jre1.8.0_101/lib/amd64;C:\adb_tool;C:\Program Files (x86)\Mozilla Firefox;C:\PROGRAMDATA\ORACLE\JAVA\JAVAPATH;C:\APP\ORACLE11\PRODUCT\11.2.0\CLIENT_1\BIN;C:\PROGRAM FILES (X86)\INTEL\ICLS CLIENT\;C:\PROGRAM FILES\INTEL\ICLS CLIENT\;C:\PROGRAM FILES\DELL\DW WLAN CARD;C:\Windows\SYSTEM32;C:\Windows;C:\Windows\SYSTEM32\WBEM;C:\Windows\SYSTEM32\WINDOWSPOWERSHELL\V1.0\;;C:\PROGRAM FILES\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\DAL;C:\PROGRAM FILES\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\IPT;C:\PROGRAM FILES (X86)\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\DAL;C:\PROGRAM FILES (X86)\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\IPT;C:\PROGRAM FILES (X86)\GS\GS9.02\BIN;C:\PROGRAM FILES\COMMON FILES\ALADDIN SHARED\ETOKEN\PKICLIENT\X64;C:\PROGRAM FILES\COMMON FILES\ALADDIN SHARED\ETOKEN\PKICLIENT\X32;C:\PROGRAM FILES (X86)\INTEL\OPENCL SDK\2.0\BIN\X86;C:\PROGRAM FILES (X86)\INTEL\OPENCL SDK\2.0\BIN\X64;C:\Program Files\WIDCOMM\Bluetooth Software\;C:\Program Files\WIDCOMM\Bluetooth Sof;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\TortoiseSVN\bin;c:\users\accl\appdata\local\enthought\canopy\user\scripts;C:\Users\accl\AppData\Local\Enthought\Canopy\User;C:\Users\accl\AppData\Local\Enthought\Canopy\User\Scripts;C:\Anaconda2;C:\Anaconda2\Scripts;C:\Anaconda2\Library\bin;C:\Anaconda22;C:\Anaconda22\Scripts;C:\Anaconda22\Library\bin;C:\Program Files (x86)\Calibre2\;C:\Users\accl\AppData\Local\Programs\Python\Python35-32\Scripts\;C:\Users\accl\AppData\Local\Programs\Python\Python35-32\;c:\users\accl\appdata\local\enthought\canopy\user\scripts;C:\Users\accl\AppData\Local\Enthought\Canopy\User;C:\Users\accl\AppData\Local\Enthought\Canopy\User\Scripts;C:\Users\accl\Desktop;;." />
+
+          <property name="java.vendor.url" value="http://java.oracle.com/" />
+
+          <property name="java.vm.vendor" value="Oracle Corporation" />
+
+          <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+
+          <property name="beta.grader.jar" value="ps2-beta-grader.jar" />
+
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner twitter.SocialNetworkTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\accl\workspace\ps2-tweets\.grader\TEST-twitter.SocialNetworkTest.xml crashfile=C:\Users\accl\workspace\ps2-tweets\.grader\junitvmwatcher2919686166943489456.properties propsfile=C:\Users\accl\workspace\ps2-tweets\.grader\junit9062915100903722139.properties" />
+
+          <property name="java.class.path" value="C:\Users\accl\workspace\ps2-tweets\lib\junit-4.12.jar;C:\Users\accl\workspace\ps2-tweets\lib\hamcrest-core-1.3.jar;C:\Users\accl\workspace\ps2-tweets\.grader\bin-tests-student;C:\Users\accl\workspace\ps2-tweets\.grader\bin-impls-student;C:\Users\accl\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-launcher.jar;C:\Users\accl\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant.jar;C:\Users\accl\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-junit.jar;C:\Users\accl\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-junit4.jar" />
+
+          <property name="ant.version" value="Apache Ant(TM) version 1.9.6 compiled on June 29 2015" />
+
+          <property name="project.name" value="ps2-tweets" />
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+
+          <property name="java.vm.specification.version" value="1.8" />
+
+          <property name="sun.cpu.endian" value="little" />
+
+          <property name="didit.desc" value="Running your tests on your implementation." />
+
+          <property name="sun.os.patch.level" value="Service Pack 1" />
+
+          <property name="java.io.tmpdir" value="C:\Users\accl\AppData\Local\Temp\" />
+
+          <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+
+          <property name="os.arch" value="amd64" />
+
+          <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+
+          <property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_101\lib\ext;C:\Windows\Sun\Java\lib\ext" />
+
+          <property name="user.dir" value="C:\Users\accl\workspace\ps2-tweets" />
+
+          <property name="line.separator" value="&#xd;&#xa;" />
+
+          <property name="zipfile" value="my-submission.zip" />
+
+          <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+
+          <property name="problem.set" value="ps2" />
+
+          <property name="basedir" value="C:\Users\accl\workspace\ps2-tweets" />
+
+          <property name="ant.java.version" value="1.8" />
+
+          <property name="ant.core.lib" value="C:\Users\accl\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant.jar" />
+
+          <property name="file.encoding" value="Cp1252" />
+
+          <property name="java.specification.version" value="1.8" />
+
+          <property name="grader.dir" value=".grader" />
+
+          <property name="ant.project.invoked-targets" value="all" />
+
+      </properties>
+
+      <testcase classname="twitter.SocialNetworkTest" name="testInfluencersDecreasingOrder" time="0.004" />
+
+      <testcase classname="twitter.SocialNetworkTest" name="testInfluencersNotEmpty" time="0.001" />
+
+      <testcase classname="twitter.SocialNetworkTest" name="testGuessFollowsGraphEmpty" time="0.0" />
+
+      <testcase classname="twitter.SocialNetworkTest" name="testAssertionsEnabled" time="0.0" />
+
+      <testcase classname="twitter.SocialNetworkTest" name="testGuessFollowsGraph2followers" time="0.0" />
+
+      <testcase classname="twitter.SocialNetworkTest" name="testInfluencersEmpty" time="0.0" />
+
+      <system-out><![CDATA[test followsgraph {bbitdiddle=[candy], alyssa=[jorlto]}
+]]></system-out>
+
+      <system-err><![CDATA[]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="1" hostname="LT13O-0005" id="3" name="ExtractTestRunner" package="twitter.staff" skipped="0" tests="13" time="0.292" timestamp="2016-11-01T10:58:42">
+      <properties>
+          <property name="java.vendor" value="Oracle Corporation" />
+
+          <property name="sun.java.launcher" value="SUN_STANDARD" />
+
+          <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+
+          <property name="build.sysclasspath" value="ignore" />
+
+          <property name="os.name" value="Windows 7" />
+
+          <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_101\lib\resources.jar;C:\Program Files\Java\jre1.8.0_101\lib\rt.jar;C:\Program Files\Java\jre1.8.0_101\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_101\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_101\lib\jce.jar;C:\Program Files\Java\jre1.8.0_101\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_101\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_101\classes" />
+
+          <property name="sun.desktop" value="windows" />
+
+          <property name="final.grading" value="true" />
+
+          <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+
+          <property name="ant.home" value="C:\Users\accl\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327" />
+
+          <property name="java.runtime.version" value="1.8.0_101-b13" />
+
+          <property name="user.name" value="accl" />
+
+          <property name="ant.build.javac.target" value="1.8" />
+
+          <property name="user.language" value="es" />
+
+          <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_101\bin" />
+
+          <property name="grader.report.file" value="my-grader-report.xml" />
+
+          <property name="ant.project.default-target" value="all" />
+
+          <property name="java.version" value="1.8.0_101" />
+
+          <property name="user.timezone" value="" />
+
+          <property name="sun.arch.data.model" value="64" />
+
+          <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.8.0_101\lib\endorsed" />
+
+          <property name="sun.cpu.isalist" value="amd64" />
+
+          <property name="sun.jnu.encoding" value="Cp1252" />
+
+          <property name="file.encoding.pkg" value="sun.io" />
+
+          <property name="file.separator" value="\" />
+
+          <property name="java.specification.name" value="Java Platform API Specification" />
+
+          <property name="java.class.version" value="52.0" />
+
+          <property name="user.country" value="ES" />
+
+          <property name="java.home" value="C:\Program Files\Java\jre1.8.0_101" />
+
+          <property name="java.vm.info" value="mixed mode" />
+
+          <property name="ant.file" value="C:\Users\accl\workspace\ps2-tweets\grader.xml" />
+
+          <property name="os.version" value="6.1" />
+
+          <property name="final.grader.jar" value="ps2-final-grader.jar" />
+
+          <property name="path.separator" value=";" />
+
+          <property name="java.vm.version" value="25.101-b13" />
+
+          <property name="user.variant" value="" />
+
+          <property name="ant.library.dir" value="C:\Users\accl\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib" />
+
+          <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+
+          <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+
+          <property name="user.script" value="" />
+
+          <property name="user.home" value="C:\Users\accl" />
+
+          <property name="java.specification.vendor" value="Oracle Corporation" />
+
+          <property name="which.tests.ran" value="BETA + FINAL" />
+
+          <property name="java.library.path" value="C:\Program Files\Java\jre1.8.0_101\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_101/bin/server;C:/Program Files/Java/jre1.8.0_101/bin;C:/Program Files/Java/jre1.8.0_101/lib/amd64;C:\adb_tool;C:\Program Files (x86)\Mozilla Firefox;C:\PROGRAMDATA\ORACLE\JAVA\JAVAPATH;C:\APP\ORACLE11\PRODUCT\11.2.0\CLIENT_1\BIN;C:\PROGRAM FILES (X86)\INTEL\ICLS CLIENT\;C:\PROGRAM FILES\INTEL\ICLS CLIENT\;C:\PROGRAM FILES\DELL\DW WLAN CARD;C:\Windows\SYSTEM32;C:\Windows;C:\Windows\SYSTEM32\WBEM;C:\Windows\SYSTEM32\WINDOWSPOWERSHELL\V1.0\;;C:\PROGRAM FILES\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\DAL;C:\PROGRAM FILES\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\IPT;C:\PROGRAM FILES (X86)\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\DAL;C:\PROGRAM FILES (X86)\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\IPT;C:\PROGRAM FILES (X86)\GS\GS9.02\BIN;C:\PROGRAM FILES\COMMON FILES\ALADDIN SHARED\ETOKEN\PKICLIENT\X64;C:\PROGRAM FILES\COMMON FILES\ALADDIN SHARED\ETOKEN\PKICLIENT\X32;C:\PROGRAM FILES (X86)\INTEL\OPENCL SDK\2.0\BIN\X86;C:\PROGRAM FILES (X86)\INTEL\OPENCL SDK\2.0\BIN\X64;C:\Program Files\WIDCOMM\Bluetooth Software\;C:\Program Files\WIDCOMM\Bluetooth Sof;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\TortoiseSVN\bin;c:\users\accl\appdata\local\enthought\canopy\user\scripts;C:\Users\accl\AppData\Local\Enthought\Canopy\User;C:\Users\accl\AppData\Local\Enthought\Canopy\User\Scripts;C:\Anaconda2;C:\Anaconda2\Scripts;C:\Anaconda2\Library\bin;C:\Anaconda22;C:\Anaconda22\Scripts;C:\Anaconda22\Library\bin;C:\Program Files (x86)\Calibre2\;C:\Users\accl\AppData\Local\Programs\Python\Python35-32\Scripts\;C:\Users\accl\AppData\Local\Programs\Python\Python35-32\;c:\users\accl\appdata\local\enthought\canopy\user\scripts;C:\Users\accl\AppData\Local\Enthought\Canopy\User;C:\Users\accl\AppData\Local\Enthought\Canopy\User\Scripts;C:\Users\accl\Desktop;;." />
+
+          <property name="java.vendor.url" value="http://java.oracle.com/" />
+
+          <property name="java.vm.vendor" value="Oracle Corporation" />
+
+          <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+
+          <property name="beta.grader.jar" value="ps2-beta-grader.jar" />
+
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner twitter.staff.ExtractTestRunner skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\accl\workspace\ps2-tweets\.grader\TEST-twitter.staff.ExtractTestRunner.xml crashfile=C:\Users\accl\workspace\ps2-tweets\.grader\junitvmwatcher7486296151302801689.properties propsfile=C:\Users\accl\workspace\ps2-tweets\.grader\junit2326394254442079986.properties" />
+
+          <property name="java.class.path" value="C:\Users\accl\workspace\ps2-tweets\lib\junit-4.12.jar;C:\Users\accl\workspace\ps2-tweets\lib\hamcrest-core-1.3.jar;C:\Users\accl\workspace\ps2-tweets\.grader\bin-impls-staff-final;C:\Users\accl\workspace\ps2-tweets\.grader\bin-tests-student;C:\Users\accl\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-launcher.jar;C:\Users\accl\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant.jar;C:\Users\accl\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-junit.jar;C:\Users\accl\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-junit4.jar" />
+
+          <property name="ant.version" value="Apache Ant(TM) version 1.9.6 compiled on June 29 2015" />
+
+          <property name="project.name" value="ps2-tweets" />
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+
+          <property name="java.vm.specification.version" value="1.8" />
+
+          <property name="sun.cpu.endian" value="little" />
+
+          <property name="didit.desc" value="Running your tests against our good and bad implementations" />
+
+          <property name="sun.os.patch.level" value="Service Pack 1" />
+
+          <property name="java.io.tmpdir" value="C:\Users\accl\AppData\Local\Temp\" />
+
+          <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+
+          <property name="os.arch" value="amd64" />
+
+          <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+
+          <property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_101\lib\ext;C:\Windows\Sun\Java\lib\ext" />
+
+          <property name="user.dir" value="C:\Users\accl\workspace\ps2-tweets" />
+
+          <property name="line.separator" value="&#xd;&#xa;" />
+
+          <property name="zipfile" value="my-submission.zip" />
+
+          <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+
+          <property name="problem.set" value="ps2" />
+
+          <property name="basedir" value="C:\Users\accl\workspace\ps2-tweets" />
+
+          <property name="ant.java.version" value="1.8" />
+
+          <property name="ant.core.lib" value="C:\Users\accl\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant.jar" />
+
+          <property name="file.encoding" value="Cp1252" />
+
+          <property name="java.specification.version" value="1.8" />
+
+          <property name="grader.dir" value=".grader" />
+
+          <property name="ant.project.invoked-targets" value="all" />
+
+      </properties>
+
+      <testcase classname="twitter.staff.ExtractTestRunner" name="yourTests_staffBadImpl_getMentionedUsersOnlyReturnsFirstMentionBug" time="0.124" />
+
+      <testcase classname="twitter.staff.ExtractTestRunner" name="yourTests_staffBadImpl_getMentionedUsersUsernameEndedWithPunctuationBug" time="0.004" />
+
+      <testcase classname="twitter.staff.ExtractTestRunner" name="yourTests_staffBadImpl_getTimespanMultipleSameTimestampBug" time="0.005" />
+
+      <testcase classname="twitter.staff.ExtractTestRunner" name="yourTests_staffBadImpl_getTimespanEmptyListBug" time="0.005" />
+
+      <testcase classname="twitter.staff.ExtractTestRunner" name="yourTests_staffBadImpl_getTimespanReturnsGarbageBug" time="0.005" />
+
+      <testcase classname="twitter.staff.ExtractTestRunner" name="yourTests_staffBadImpl_getMentionedUsersMustBeCaseInsensitiveBug" time="0.004" />
+
+      <testcase classname="twitter.staff.ExtractTestRunner" name="yourTests_staffBadImpl_getMentionedUsersRepeatedAtSignBug" time="0.004" />
+
+      <testcase classname="twitter.staff.ExtractTestRunner" name="yourTests_staffBadImpl_getMentionedUsersEmailAddressBug" time="0.003" />
+
+      <testcase classname="twitter.staff.ExtractTestRunner" name="yourTests_staffBadImpl_getTimespanAssumesInOrderBug" time="0.003" />
+
+      <testcase classname="twitter.staff.ExtractTestRunner" name="yourTests_staffGoodImpl_getTimespanEmptyListUsesToday_getMentionedUsersMixesUpCase" time="0.008">
+          <failure message="Some of your tests failed when run against our correct implementation: 12 tests ran with 5 failures in 2 ms.&#xa;java.lang.AssertionError: expected one user&#xd;&#xa;    ...&#xd;&#xa;    at twitter.ExtractTest.testGetOneMentionedUser(ExtractTest.java:80)&#xd;&#xa;    ...&#xd;&#xa;java.lang.AssertionError: expected anakin&#xd;&#xa;    ...&#xd;&#xa;    at twitter.ExtractTest.testGetSameUserMentionedValidUsername(ExtractTest.java:133)&#xd;&#xa;    ...&#xd;&#xa;java.lang.AssertionError: expected anakin&#xd;&#xa;    ...&#xd;&#xa;    at twitter.ExtractTest.testGetSameUserMentionedstartingWithUsername(ExtractTest.java:142)&#xd;&#xa;    ...&#xd;&#xa;java.lang.AssertionError: expected two users&#xd;&#xa;    ...&#xd;&#xa;    at twitter.ExtractTest.testGetTwoMentionedUser(ExtractTest.java:88)&#xd;&#xa;    ...&#xd;&#xa;java.lang.AssertionError: expected one user&#xd;&#xa;    ...&#xd;&#xa;    at twitter.ExtractTest.testGetSameUserMentionedTwiceWithCaps(ExtractTest.java:96)&#xd;&#xa;    ...&#xa;----" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Some of your tests failed when run against our correct implementation: 12 tests ran with 5 failures in 2 ms.
+java.lang.AssertionError: expected one user
+    ...
+    at twitter.ExtractTest.testGetOneMentionedUser(ExtractTest.java:80)
+    ...
+java.lang.AssertionError: expected anakin
+    ...
+    at twitter.ExtractTest.testGetSameUserMentionedValidUsername(ExtractTest.java:133)
+    ...
+java.lang.AssertionError: expected anakin
+    ...
+    at twitter.ExtractTest.testGetSameUserMentionedstartingWithUsername(ExtractTest.java:142)
+    ...
+java.lang.AssertionError: expected two users
+    ...
+    at twitter.ExtractTest.testGetTwoMentionedUser(ExtractTest.java:88)
+    ...
+java.lang.AssertionError: expected one user
+    ...
+    at twitter.ExtractTest.testGetSameUserMentionedTwiceWithCaps(ExtractTest.java:96)
+    ...
+----
+	at twitter.staff.TestHelpers.assertSuccess(TestHelpers.java:50)
+	at twitter.staff.ExtractTestRunner.yourTests_staffGoodImpl_getTimespanEmptyListUsesToday_getMentionedUsersMixesUpCase(ExtractTestRunner.java:28)
+</failure>
+
+      </testcase>
+
+      <testcase classname="twitter.staff.ExtractTestRunner" name="yourTests_staffGoodImpl_getTimespanEmptyListUsesOldDate_getMentionedUsersLowerCasesEverything" time="0.004" />
+
+      <testcase classname="twitter.staff.ExtractTestRunner" name="yourTests_staffBadImpl_getTimespanIndexOutOfBoundsBug" time="0.003" />
+
+      <testcase classname="twitter.staff.ExtractTestRunner" name="yourTests_staffBadImpl_getTimespanSingleTweetBug" time="0.003" />
+
+      <system-out><![CDATA[testGetSameUserMentionedInvalidUsername2 [so]
+testGetSameUserMentionedInvalidUsername2 [so]
+testGetSameUserMentionedInvalidUsername2 [so]
+testGetSameUserMentionedInvalidUsername2 [so]
+testGetSameUserMentionedInvalidUsername2 []
+testGetSameUserMentionedInvalidUsername2 []
+testGetSameUserMentionedInvalidUsername2 []
+testGetSameUserMentionedInvalidUsername2 []
+testGetSameUserMentionedInvalidUsername2 []
+testGetSameUserMentionedInvalidUsername2 []
+testGetSameUserMentionedInvalidUsername2 []
+testGetSameUserMentionedInvalidUsername2 []
+testGetSameUserMentionedInvalidUsername2 [, so]
+testGetSameUserMentionedInvalidUsername2 [so, mark]
+testGetSameUserMentionedInvalidUsername2 []
+testGetSameUserMentionedInvalidUsername2 []
+testGetSameUserMentionedInvalidUsername2 []
+testGetSameUserMentionedInvalidUsername2 []
+testGetSameUserMentionedInvalidUsername2 []
+testGetSameUserMentionedInvalidUsername2 []
+testGetSameUserMentionedInvalidUsername2 []
+testGetSameUserMentionedInvalidUsername2 []
+testGetSameUserMentionedInvalidUsername2 []
+testGetSameUserMentionedInvalidUsername2 []
+]]></system-out>
+
+      <system-err><![CDATA[]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="4" hostname="LT13O-0005" id="4" name="FilterTestRunner" package="twitter.staff" skipped="0" tests="12" time="0.229" timestamp="2016-11-01T10:58:42">
+      <properties>
+          <property name="java.vendor" value="Oracle Corporation" />
+
+          <property name="sun.java.launcher" value="SUN_STANDARD" />
+
+          <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+
+          <property name="build.sysclasspath" value="ignore" />
+
+          <property name="os.name" value="Windows 7" />
+
+          <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_101\lib\resources.jar;C:\Program Files\Java\jre1.8.0_101\lib\rt.jar;C:\Program Files\Java\jre1.8.0_101\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_101\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_101\lib\jce.jar;C:\Program Files\Java\jre1.8.0_101\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_101\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_101\classes" />
+
+          <property name="sun.desktop" value="windows" />
+
+          <property name="final.grading" value="true" />
+
+          <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+
+          <property name="ant.home" value="C:\Users\accl\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327" />
+
+          <property name="java.runtime.version" value="1.8.0_101-b13" />
+
+          <property name="user.name" value="accl" />
+
+          <property name="ant.build.javac.target" value="1.8" />
+
+          <property name="user.language" value="es" />
+
+          <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_101\bin" />
+
+          <property name="grader.report.file" value="my-grader-report.xml" />
+
+          <property name="ant.project.default-target" value="all" />
+
+          <property name="java.version" value="1.8.0_101" />
+
+          <property name="user.timezone" value="" />
+
+          <property name="sun.arch.data.model" value="64" />
+
+          <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.8.0_101\lib\endorsed" />
+
+          <property name="sun.cpu.isalist" value="amd64" />
+
+          <property name="sun.jnu.encoding" value="Cp1252" />
+
+          <property name="file.encoding.pkg" value="sun.io" />
+
+          <property name="file.separator" value="\" />
+
+          <property name="java.specification.name" value="Java Platform API Specification" />
+
+          <property name="java.class.version" value="52.0" />
+
+          <property name="user.country" value="ES" />
+
+          <property name="java.home" value="C:\Program Files\Java\jre1.8.0_101" />
+
+          <property name="java.vm.info" value="mixed mode" />
+
+          <property name="ant.file" value="C:\Users\accl\workspace\ps2-tweets\grader.xml" />
+
+          <property name="os.version" value="6.1" />
+
+          <property name="final.grader.jar" value="ps2-final-grader.jar" />
+
+          <property name="path.separator" value=";" />
+
+          <property name="java.vm.version" value="25.101-b13" />
+
+          <property name="user.variant" value="" />
+
+          <property name="ant.library.dir" value="C:\Users\accl\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib" />
+
+          <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+
+          <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+
+          <property name="user.script" value="" />
+
+          <property name="user.home" value="C:\Users\accl" />
+
+          <property name="java.specification.vendor" value="Oracle Corporation" />
+
+          <property name="which.tests.ran" value="BETA + FINAL" />
+
+          <property name="java.library.path" value="C:\Program Files\Java\jre1.8.0_101\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_101/bin/server;C:/Program Files/Java/jre1.8.0_101/bin;C:/Program Files/Java/jre1.8.0_101/lib/amd64;C:\adb_tool;C:\Program Files (x86)\Mozilla Firefox;C:\PROGRAMDATA\ORACLE\JAVA\JAVAPATH;C:\APP\ORACLE11\PRODUCT\11.2.0\CLIENT_1\BIN;C:\PROGRAM FILES (X86)\INTEL\ICLS CLIENT\;C:\PROGRAM FILES\INTEL\ICLS CLIENT\;C:\PROGRAM FILES\DELL\DW WLAN CARD;C:\Windows\SYSTEM32;C:\Windows;C:\Windows\SYSTEM32\WBEM;C:\Windows\SYSTEM32\WINDOWSPOWERSHELL\V1.0\;;C:\PROGRAM FILES\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\DAL;C:\PROGRAM FILES\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\IPT;C:\PROGRAM FILES (X86)\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\DAL;C:\PROGRAM FILES (X86)\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\IPT;C:\PROGRAM FILES (X86)\GS\GS9.02\BIN;C:\PROGRAM FILES\COMMON FILES\ALADDIN SHARED\ETOKEN\PKICLIENT\X64;C:\PROGRAM FILES\COMMON FILES\ALADDIN SHARED\ETOKEN\PKICLIENT\X32;C:\PROGRAM FILES (X86)\INTEL\OPENCL SDK\2.0\BIN\X86;C:\PROGRAM FILES (X86)\INTEL\OPENCL SDK\2.0\BIN\X64;C:\Program Files\WIDCOMM\Bluetooth Software\;C:\Program Files\WIDCOMM\Bluetooth Sof;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\TortoiseSVN\bin;c:\users\accl\appdata\local\enthought\canopy\user\scripts;C:\Users\accl\AppData\Local\Enthought\Canopy\User;C:\Users\accl\AppData\Local\Enthought\Canopy\User\Scripts;C:\Anaconda2;C:\Anaconda2\Scripts;C:\Anaconda2\Library\bin;C:\Anaconda22;C:\Anaconda22\Scripts;C:\Anaconda22\Library\bin;C:\Program Files (x86)\Calibre2\;C:\Users\accl\AppData\Local\Programs\Python\Python35-32\Scripts\;C:\Users\accl\AppData\Local\Programs\Python\Python35-32\;c:\users\accl\appdata\local\enthought\canopy\user\scripts;C:\Users\accl\AppData\Local\Enthought\Canopy\User;C:\Users\accl\AppData\Local\Enthought\Canopy\User\Scripts;C:\Users\accl\Desktop;;." />
+
+          <property name="java.vendor.url" value="http://java.oracle.com/" />
+
+          <property name="java.vm.vendor" value="Oracle Corporation" />
+
+          <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+
+          <property name="beta.grader.jar" value="ps2-beta-grader.jar" />
+
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner twitter.staff.FilterTestRunner skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\accl\workspace\ps2-tweets\.grader\TEST-twitter.staff.FilterTestRunner.xml crashfile=C:\Users\accl\workspace\ps2-tweets\.grader\junitvmwatcher4289853252694321671.properties propsfile=C:\Users\accl\workspace\ps2-tweets\.grader\junit2339903786824005414.properties" />
+
+          <property name="java.class.path" value="C:\Users\accl\workspace\ps2-tweets\lib\junit-4.12.jar;C:\Users\accl\workspace\ps2-tweets\lib\hamcrest-core-1.3.jar;C:\Users\accl\workspace\ps2-tweets\.grader\bin-impls-staff-final;C:\Users\accl\workspace\ps2-tweets\.grader\bin-tests-student;C:\Users\accl\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-launcher.jar;C:\Users\accl\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant.jar;C:\Users\accl\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-junit.jar;C:\Users\accl\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-junit4.jar" />
+
+          <property name="ant.version" value="Apache Ant(TM) version 1.9.6 compiled on June 29 2015" />
+
+          <property name="project.name" value="ps2-tweets" />
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+
+          <property name="java.vm.specification.version" value="1.8" />
+
+          <property name="sun.cpu.endian" value="little" />
+
+          <property name="didit.desc" value="Running your tests against our good and bad implementations" />
+
+          <property name="sun.os.patch.level" value="Service Pack 1" />
+
+          <property name="java.io.tmpdir" value="C:\Users\accl\AppData\Local\Temp\" />
+
+          <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+
+          <property name="os.arch" value="amd64" />
+
+          <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+
+          <property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_101\lib\ext;C:\Windows\Sun\Java\lib\ext" />
+
+          <property name="user.dir" value="C:\Users\accl\workspace\ps2-tweets" />
+
+          <property name="line.separator" value="&#xd;&#xa;" />
+
+          <property name="zipfile" value="my-submission.zip" />
+
+          <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+
+          <property name="problem.set" value="ps2" />
+
+          <property name="basedir" value="C:\Users\accl\workspace\ps2-tweets" />
+
+          <property name="ant.java.version" value="1.8" />
+
+          <property name="ant.core.lib" value="C:\Users\accl\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant.jar" />
+
+          <property name="file.encoding" value="Cp1252" />
+
+          <property name="java.specification.version" value="1.8" />
+
+          <property name="grader.dir" value=".grader" />
+
+          <property name="ant.project.invoked-targets" value="all" />
+
+      </properties>
+
+      <testcase classname="twitter.staff.FilterTestRunner" name="yourTests_staffBadImpl_inTimespanExclusiveTimespanBug" time="0.11">
+          <failure message="None of your tests failed when run against our broken implementation: 9 tests ran with 0 failures in 86 ms." type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: None of your tests failed when run against our broken implementation: 9 tests ran with 0 failures in 86 ms.
+	at twitter.staff.TestHelpers.assertFailure(TestHelpers.java:59)
+	at twitter.staff.FilterTestRunner.yourTests_staffBadImpl_inTimespanExclusiveTimespanBug(FilterTestRunner.java:64)
+</failure>
+
+      </testcase>
+
+      <testcase classname="twitter.staff.FilterTestRunner" name="yourTests_staffBadImpl_containingReturnsSubstringMatchBug" time="0.008">
+          <failure message="None of your tests failed when run against our broken implementation: 9 tests ran with 0 failures in 5 ms." type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: None of your tests failed when run against our broken implementation: 9 tests ran with 0 failures in 5 ms.
+	at twitter.staff.TestHelpers.assertFailure(TestHelpers.java:59)
+	at twitter.staff.FilterTestRunner.yourTests_staffBadImpl_containingReturnsSubstringMatchBug(FilterTestRunner.java:94)
+</failure>
+
+      </testcase>
+
+      <testcase classname="twitter.staff.FilterTestRunner" name="yourTests_staffGoodImpl_Filter" time="0.003" />
+
+      <testcase classname="twitter.staff.FilterTestRunner" name="yourTests_staffBadImpl_containingReturnsAndNotOrBug" time="0.004">
+          <failure message="None of your tests failed when run against our broken implementation: 9 tests ran with 0 failures in 1 ms." type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: None of your tests failed when run against our broken implementation: 9 tests ran with 0 failures in 1 ms.
+	at twitter.staff.TestHelpers.assertFailure(TestHelpers.java:59)
+	at twitter.staff.FilterTestRunner.yourTests_staffBadImpl_containingReturnsAndNotOrBug(FilterTestRunner.java:89)
+</failure>
+
+      </testcase>
+
+      <testcase classname="twitter.staff.FilterTestRunner" name="yourTests_staffBadImpl_writtenByIndexOutOfBoundsBug" time="0.003" />
+
+      <testcase classname="twitter.staff.FilterTestRunner" name="yourTests_staffBadImpl_containingReturnsFullListBug" time="0.002" />
+
+      <testcase classname="twitter.staff.FilterTestRunner" name="yourTests_staffBadImpl_inTimespanReturnsFullListBug" time="0.003" />
+
+      <testcase classname="twitter.staff.FilterTestRunner" name="yourTests_staffBadImpl_writtenByReturnsOnlyFirstResultBug" time="0.002" />
+
+      <testcase classname="twitter.staff.FilterTestRunner" name="yourTests_staffBadImpl_writtenByMustBeCaseInsensitiveBug" time="0.003">
+          <failure message="None of your tests failed when run against our broken implementation: 9 tests ran with 0 failures in 1 ms." type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: None of your tests failed when run against our broken implementation: 9 tests ran with 0 failures in 1 ms.
+	at twitter.staff.TestHelpers.assertFailure(TestHelpers.java:59)
+	at twitter.staff.FilterTestRunner.yourTests_staffBadImpl_writtenByMustBeCaseInsensitiveBug(FilterTestRunner.java:43)
+</failure>
+
+      </testcase>
+
+      <testcase classname="twitter.staff.FilterTestRunner" name="yourTests_staffBadImpl_inTimespanAssumesInOrderBug" time="0.002" />
+
+      <testcase classname="twitter.staff.FilterTestRunner" name="yourTests_staffBadImpl_writtenByReturnsFullListBug" time="0.001" />
+
+      <testcase classname="twitter.staff.FilterTestRunner" name="yourTests_staffBadImpl_containingMustBeCaseInsensitiveBug" time="0.002" />
+
+      <system-out><![CDATA[]]></system-out>
+
+      <system-err><![CDATA[]]></system-err>
+
+  </testsuite>
+  <testsuite errors="1" failures="6" hostname="LT13O-0005" id="5" name="GradingExtractTest" package="twitter.staff" skipped="0" tests="21" time="0.167" timestamp="2016-11-01T10:58:40">
+      <properties>
+          <property name="java.vendor" value="Oracle Corporation" />
+
+          <property name="sun.java.launcher" value="SUN_STANDARD" />
+
+          <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+
+          <property name="build.sysclasspath" value="ignore" />
+
+          <property name="os.name" value="Windows 7" />
+
+          <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_101\lib\resources.jar;C:\Program Files\Java\jre1.8.0_101\lib\rt.jar;C:\Program Files\Java\jre1.8.0_101\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_101\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_101\lib\jce.jar;C:\Program Files\Java\jre1.8.0_101\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_101\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_101\classes" />
+
+          <property name="sun.desktop" value="windows" />
+
+          <property name="final.grading" value="true" />
+
+          <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+
+          <property name="ant.home" value="C:\Users\accl\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327" />
+
+          <property name="java.runtime.version" value="1.8.0_101-b13" />
+
+          <property name="user.name" value="accl" />
+
+          <property name="ant.build.javac.target" value="1.8" />
+
+          <property name="user.language" value="es" />
+
+          <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_101\bin" />
+
+          <property name="grader.report.file" value="my-grader-report.xml" />
+
+          <property name="ant.project.default-target" value="all" />
+
+          <property name="java.version" value="1.8.0_101" />
+
+          <property name="user.timezone" value="" />
+
+          <property name="sun.arch.data.model" value="64" />
+
+          <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.8.0_101\lib\endorsed" />
+
+          <property name="sun.cpu.isalist" value="amd64" />
+
+          <property name="sun.jnu.encoding" value="Cp1252" />
+
+          <property name="file.encoding.pkg" value="sun.io" />
+
+          <property name="file.separator" value="\" />
+
+          <property name="java.specification.name" value="Java Platform API Specification" />
+
+          <property name="java.class.version" value="52.0" />
+
+          <property name="user.country" value="ES" />
+
+          <property name="java.home" value="C:\Program Files\Java\jre1.8.0_101" />
+
+          <property name="java.vm.info" value="mixed mode" />
+
+          <property name="ant.file" value="C:\Users\accl\workspace\ps2-tweets\grader.xml" />
+
+          <property name="os.version" value="6.1" />
+
+          <property name="final.grader.jar" value="ps2-final-grader.jar" />
+
+          <property name="path.separator" value=";" />
+
+          <property name="java.vm.version" value="25.101-b13" />
+
+          <property name="user.variant" value="" />
+
+          <property name="ant.library.dir" value="C:\Users\accl\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib" />
+
+          <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+
+          <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+
+          <property name="user.script" value="" />
+
+          <property name="user.home" value="C:\Users\accl" />
+
+          <property name="java.specification.vendor" value="Oracle Corporation" />
+
+          <property name="which.tests.ran" value="BETA + FINAL" />
+
+          <property name="java.library.path" value="C:\Program Files\Java\jre1.8.0_101\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_101/bin/server;C:/Program Files/Java/jre1.8.0_101/bin;C:/Program Files/Java/jre1.8.0_101/lib/amd64;C:\adb_tool;C:\Program Files (x86)\Mozilla Firefox;C:\PROGRAMDATA\ORACLE\JAVA\JAVAPATH;C:\APP\ORACLE11\PRODUCT\11.2.0\CLIENT_1\BIN;C:\PROGRAM FILES (X86)\INTEL\ICLS CLIENT\;C:\PROGRAM FILES\INTEL\ICLS CLIENT\;C:\PROGRAM FILES\DELL\DW WLAN CARD;C:\Windows\SYSTEM32;C:\Windows;C:\Windows\SYSTEM32\WBEM;C:\Windows\SYSTEM32\WINDOWSPOWERSHELL\V1.0\;;C:\PROGRAM FILES\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\DAL;C:\PROGRAM FILES\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\IPT;C:\PROGRAM FILES (X86)\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\DAL;C:\PROGRAM FILES (X86)\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\IPT;C:\PROGRAM FILES (X86)\GS\GS9.02\BIN;C:\PROGRAM FILES\COMMON FILES\ALADDIN SHARED\ETOKEN\PKICLIENT\X64;C:\PROGRAM FILES\COMMON FILES\ALADDIN SHARED\ETOKEN\PKICLIENT\X32;C:\PROGRAM FILES (X86)\INTEL\OPENCL SDK\2.0\BIN\X86;C:\PROGRAM FILES (X86)\INTEL\OPENCL SDK\2.0\BIN\X64;C:\Program Files\WIDCOMM\Bluetooth Software\;C:\Program Files\WIDCOMM\Bluetooth Sof;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\TortoiseSVN\bin;c:\users\accl\appdata\local\enthought\canopy\user\scripts;C:\Users\accl\AppData\Local\Enthought\Canopy\User;C:\Users\accl\AppData\Local\Enthought\Canopy\User\Scripts;C:\Anaconda2;C:\Anaconda2\Scripts;C:\Anaconda2\Library\bin;C:\Anaconda22;C:\Anaconda22\Scripts;C:\Anaconda22\Library\bin;C:\Program Files (x86)\Calibre2\;C:\Users\accl\AppData\Local\Programs\Python\Python35-32\Scripts\;C:\Users\accl\AppData\Local\Programs\Python\Python35-32\;c:\users\accl\appdata\local\enthought\canopy\user\scripts;C:\Users\accl\AppData\Local\Enthought\Canopy\User;C:\Users\accl\AppData\Local\Enthought\Canopy\User\Scripts;C:\Users\accl\Desktop;;." />
+
+          <property name="java.vendor.url" value="http://java.oracle.com/" />
+
+          <property name="java.vm.vendor" value="Oracle Corporation" />
+
+          <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+
+          <property name="beta.grader.jar" value="ps2-beta-grader.jar" />
+
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner twitter.staff.GradingExtractTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\accl\workspace\ps2-tweets\.grader\TEST-twitter.staff.GradingExtractTest.xml crashfile=C:\Users\accl\workspace\ps2-tweets\.grader\junitvmwatcher7507972419709385186.properties propsfile=C:\Users\accl\workspace\ps2-tweets\.grader\junit5732572062239486639.properties" />
+
+          <property name="java.class.path" value="C:\Users\accl\workspace\ps2-tweets\lib\junit-4.12.jar;C:\Users\accl\workspace\ps2-tweets\lib\hamcrest-core-1.3.jar;C:\Users\accl\workspace\ps2-tweets\.grader\bin-tests-final;C:\Users\accl\workspace\ps2-tweets\.grader\bin-impls-student;C:\Users\accl\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-launcher.jar;C:\Users\accl\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant.jar;C:\Users\accl\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-junit.jar;C:\Users\accl\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-junit4.jar" />
+
+          <property name="ant.version" value="Apache Ant(TM) version 1.9.6 compiled on June 29 2015" />
+
+          <property name="project.name" value="ps2-tweets" />
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+
+          <property name="java.vm.specification.version" value="1.8" />
+
+          <property name="sun.cpu.endian" value="little" />
+
+          <property name="didit.desc" value="Running our tests against your implementation" />
+
+          <property name="sun.os.patch.level" value="Service Pack 1" />
+
+          <property name="java.io.tmpdir" value="C:\Users\accl\AppData\Local\Temp\" />
+
+          <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+
+          <property name="os.arch" value="amd64" />
+
+          <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+
+          <property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_101\lib\ext;C:\Windows\Sun\Java\lib\ext" />
+
+          <property name="user.dir" value="C:\Users\accl\workspace\ps2-tweets" />
+
+          <property name="line.separator" value="&#xd;&#xa;" />
+
+          <property name="zipfile" value="my-submission.zip" />
+
+          <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+
+          <property name="problem.set" value="ps2" />
+
+          <property name="basedir" value="C:\Users\accl\workspace\ps2-tweets" />
+
+          <property name="ant.java.version" value="1.8" />
+
+          <property name="ant.core.lib" value="C:\Users\accl\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant.jar" />
+
+          <property name="file.encoding" value="Cp1252" />
+
+          <property name="java.specification.version" value="1.8" />
+
+          <property name="grader.dir" value=".grader" />
+
+          <property name="ant.project.invoked-targets" value="all" />
+
+      </properties>
+
+      <testcase classname="twitter.staff.GradingExtractTest" name="testGetMentionedUsersSingleMentionSingleTweet" time="0.014">
+          <failure message="expected non-empty set" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: expected non-empty set
+	at twitter.staff.GradingExtractTest.testGetMentionedUsersSingleMentionSingleTweet(GradingExtractTest.java:177)
+</failure>
+
+      </testcase>
+
+      <testcase classname="twitter.staff.GradingExtractTest" name="testGetTimespanMultipleStampsWithDuplicates" time="0.002" />
+
+      <testcase classname="twitter.staff.GradingExtractTest" name="testGetMentionedUsersEmailAddress" time="0.0" />
+
+      <testcase classname="twitter.staff.GradingExtractTest" name="testGetMentionedUsersUsernameEndedByPunctuation" time="0.001" />
+
+      <testcase classname="twitter.staff.GradingExtractTest" name="testGetMentionedUsersMultipleMentionsMultipleTweets" time="0.001">
+          <failure message="set size expected:&lt;3&gt; but was:&lt;2&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: set size expected:&lt;3&gt; but was:&lt;2&gt;
+	at twitter.staff.GradingExtractTest.testGetMentionedUsersMultipleMentionsMultipleTweets(GradingExtractTest.java:251)
+</failure>
+
+      </testcase>
+
+      <testcase classname="twitter.staff.GradingExtractTest" name="testGetMentionedUsersSingleMentionMultipleTweetsMustBeCaseInsensitive" time="0.001" />
+
+      <testcase classname="twitter.staff.GradingExtractTest" name="testGetMentionedUsersUsernameIsHyphenated" time="0.002">
+          <failure message="unexpected user in set" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: unexpected user in set
+	at twitter.staff.GradingExtractTest.testGetMentionedUsersUsernameIsHyphenated(GradingExtractTest.java:319)
+</failure>
+
+      </testcase>
+
+      <testcase classname="twitter.staff.GradingExtractTest" name="testGetMentionedUsersInvalidFollowingCharacters" time="0.0" />
+
+      <testcase classname="twitter.staff.GradingExtractTest" name="testGetMentionedUsersUnderscores" time="0.001">
+          <failure message="set size expected:&lt;2&gt; but was:&lt;1&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: set size expected:&lt;2&gt; but was:&lt;1&gt;
+	at twitter.staff.GradingExtractTest.testGetMentionedUsersUnderscores(GradingExtractTest.java:353)
+</failure>
+
+      </testcase>
+
+      <testcase classname="twitter.staff.GradingExtractTest" name="testGetTimespanTwoDifferentStamps" time="0.001" />
+
+      <testcase classname="twitter.staff.GradingExtractTest" name="testGetTimespanMultipleStampsWithoutDuplicates" time="0.0" />
+
+      <testcase classname="twitter.staff.GradingExtractTest" name="testGetMentionedUsersEmptyList" time="0.0" />
+
+      <testcase classname="twitter.staff.GradingExtractTest" name="testGetTimespanTwoDuplicateStamps" time="0.0" />
+
+      <testcase classname="twitter.staff.GradingExtractTest" name="testGetMentionedUsersPreceededByPunctuation" time="0.001" />
+
+      <testcase classname="twitter.staff.GradingExtractTest" name="testGetTimespanEmptyListAlwaysReturnsZeroLengthTimespan" time="0.001">
+          <error message="requires start &lt;= end" type="java.lang.IllegalArgumentException">java.lang.IllegalArgumentException: requires start &lt;= end
+	at twitter.Timespan.&lt;init&gt;(Timespan.java:27)
+	at twitter.Extract.getTimespan(Extract.java:45)
+	at twitter.staff.GradingExtractTest.testGetTimespanEmptyListAlwaysReturnsZeroLengthTimespan(GradingExtractTest.java:48)
+</error>
+
+      </testcase>
+
+      <testcase classname="twitter.staff.GradingExtractTest" name="testGetMentionedUsersSingleAtSignNoFollowingUsername" time="0.0" />
+
+      <testcase classname="twitter.staff.GradingExtractTest" name="testGetMentionedUsersMultipleMentionsSingleTweet" time="0.003">
+          <failure message="set size expected:&lt;2&gt; but was:&lt;1&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: set size expected:&lt;2&gt; but was:&lt;1&gt;
+	at twitter.staff.GradingExtractTest.testGetMentionedUsersMultipleMentionsSingleTweet(GradingExtractTest.java:233)
+</failure>
+
+      </testcase>
+
+      <testcase classname="twitter.staff.GradingExtractTest" name="testGetMentionedUsersSingleMentionMultipleTweets" time="0.0" />
+
+      <testcase classname="twitter.staff.GradingExtractTest" name="testGetTimespanSingleTweet" time="0.0" />
+
+      <testcase classname="twitter.staff.GradingExtractTest" name="testGetMentionedUsersNoMentionsSingleTweet" time="0.0" />
+
+      <testcase classname="twitter.staff.GradingExtractTest" name="testGetMentionedUsersMultipleAtSigns" time="0.001">
+          <failure message="expected non-empty set" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: expected non-empty set
+	at twitter.staff.GradingExtractTest.testGetMentionedUsersMultipleAtSigns(GradingExtractTest.java:303)
+</failure>
+
+      </testcase>
+
+      <system-out><![CDATA[]]></system-out>
+
+      <system-err><![CDATA[]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="5" hostname="LT13O-0005" id="6" name="GradingFilterTest" package="twitter.staff" skipped="0" tests="21" time="0.161" timestamp="2016-11-01T10:58:41">
+      <properties>
+          <property name="java.vendor" value="Oracle Corporation" />
+
+          <property name="sun.java.launcher" value="SUN_STANDARD" />
+
+          <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+
+          <property name="build.sysclasspath" value="ignore" />
+
+          <property name="os.name" value="Windows 7" />
+
+          <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_101\lib\resources.jar;C:\Program Files\Java\jre1.8.0_101\lib\rt.jar;C:\Program Files\Java\jre1.8.0_101\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_101\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_101\lib\jce.jar;C:\Program Files\Java\jre1.8.0_101\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_101\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_101\classes" />
+
+          <property name="sun.desktop" value="windows" />
+
+          <property name="final.grading" value="true" />
+
+          <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+
+          <property name="ant.home" value="C:\Users\accl\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327" />
+
+          <property name="java.runtime.version" value="1.8.0_101-b13" />
+
+          <property name="user.name" value="accl" />
+
+          <property name="ant.build.javac.target" value="1.8" />
+
+          <property name="user.language" value="es" />
+
+          <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_101\bin" />
+
+          <property name="grader.report.file" value="my-grader-report.xml" />
+
+          <property name="ant.project.default-target" value="all" />
+
+          <property name="java.version" value="1.8.0_101" />
+
+          <property name="user.timezone" value="" />
+
+          <property name="sun.arch.data.model" value="64" />
+
+          <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.8.0_101\lib\endorsed" />
+
+          <property name="sun.cpu.isalist" value="amd64" />
+
+          <property name="sun.jnu.encoding" value="Cp1252" />
+
+          <property name="file.encoding.pkg" value="sun.io" />
+
+          <property name="file.separator" value="\" />
+
+          <property name="java.specification.name" value="Java Platform API Specification" />
+
+          <property name="java.class.version" value="52.0" />
+
+          <property name="user.country" value="ES" />
+
+          <property name="java.home" value="C:\Program Files\Java\jre1.8.0_101" />
+
+          <property name="java.vm.info" value="mixed mode" />
+
+          <property name="ant.file" value="C:\Users\accl\workspace\ps2-tweets\grader.xml" />
+
+          <property name="os.version" value="6.1" />
+
+          <property name="final.grader.jar" value="ps2-final-grader.jar" />
+
+          <property name="path.separator" value=";" />
+
+          <property name="java.vm.version" value="25.101-b13" />
+
+          <property name="user.variant" value="" />
+
+          <property name="ant.library.dir" value="C:\Users\accl\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib" />
+
+          <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+
+          <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+
+          <property name="user.script" value="" />
+
+          <property name="user.home" value="C:\Users\accl" />
+
+          <property name="java.specification.vendor" value="Oracle Corporation" />
+
+          <property name="which.tests.ran" value="BETA + FINAL" />
+
+          <property name="java.library.path" value="C:\Program Files\Java\jre1.8.0_101\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_101/bin/server;C:/Program Files/Java/jre1.8.0_101/bin;C:/Program Files/Java/jre1.8.0_101/lib/amd64;C:\adb_tool;C:\Program Files (x86)\Mozilla Firefox;C:\PROGRAMDATA\ORACLE\JAVA\JAVAPATH;C:\APP\ORACLE11\PRODUCT\11.2.0\CLIENT_1\BIN;C:\PROGRAM FILES (X86)\INTEL\ICLS CLIENT\;C:\PROGRAM FILES\INTEL\ICLS CLIENT\;C:\PROGRAM FILES\DELL\DW WLAN CARD;C:\Windows\SYSTEM32;C:\Windows;C:\Windows\SYSTEM32\WBEM;C:\Windows\SYSTEM32\WINDOWSPOWERSHELL\V1.0\;;C:\PROGRAM FILES\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\DAL;C:\PROGRAM FILES\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\IPT;C:\PROGRAM FILES (X86)\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\DAL;C:\PROGRAM FILES (X86)\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\IPT;C:\PROGRAM FILES (X86)\GS\GS9.02\BIN;C:\PROGRAM FILES\COMMON FILES\ALADDIN SHARED\ETOKEN\PKICLIENT\X64;C:\PROGRAM FILES\COMMON FILES\ALADDIN SHARED\ETOKEN\PKICLIENT\X32;C:\PROGRAM FILES (X86)\INTEL\OPENCL SDK\2.0\BIN\X86;C:\PROGRAM FILES (X86)\INTEL\OPENCL SDK\2.0\BIN\X64;C:\Program Files\WIDCOMM\Bluetooth Software\;C:\Program Files\WIDCOMM\Bluetooth Sof;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\TortoiseSVN\bin;c:\users\accl\appdata\local\enthought\canopy\user\scripts;C:\Users\accl\AppData\Local\Enthought\Canopy\User;C:\Users\accl\AppData\Local\Enthought\Canopy\User\Scripts;C:\Anaconda2;C:\Anaconda2\Scripts;C:\Anaconda2\Library\bin;C:\Anaconda22;C:\Anaconda22\Scripts;C:\Anaconda22\Library\bin;C:\Program Files (x86)\Calibre2\;C:\Users\accl\AppData\Local\Programs\Python\Python35-32\Scripts\;C:\Users\accl\AppData\Local\Programs\Python\Python35-32\;c:\users\accl\appdata\local\enthought\canopy\user\scripts;C:\Users\accl\AppData\Local\Enthought\Canopy\User;C:\Users\accl\AppData\Local\Enthought\Canopy\User\Scripts;C:\Users\accl\Desktop;;." />
+
+          <property name="java.vendor.url" value="http://java.oracle.com/" />
+
+          <property name="java.vm.vendor" value="Oracle Corporation" />
+
+          <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+
+          <property name="beta.grader.jar" value="ps2-beta-grader.jar" />
+
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner twitter.staff.GradingFilterTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\accl\workspace\ps2-tweets\.grader\TEST-twitter.staff.GradingFilterTest.xml crashfile=C:\Users\accl\workspace\ps2-tweets\.grader\junitvmwatcher8178214908359919887.properties propsfile=C:\Users\accl\workspace\ps2-tweets\.grader\junit2056053855025353840.properties" />
+
+          <property name="java.class.path" value="C:\Users\accl\workspace\ps2-tweets\lib\junit-4.12.jar;C:\Users\accl\workspace\ps2-tweets\lib\hamcrest-core-1.3.jar;C:\Users\accl\workspace\ps2-tweets\.grader\bin-tests-final;C:\Users\accl\workspace\ps2-tweets\.grader\bin-impls-student;C:\Users\accl\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-launcher.jar;C:\Users\accl\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant.jar;C:\Users\accl\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-junit.jar;C:\Users\accl\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-junit4.jar" />
+
+          <property name="ant.version" value="Apache Ant(TM) version 1.9.6 compiled on June 29 2015" />
+
+          <property name="project.name" value="ps2-tweets" />
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+
+          <property name="java.vm.specification.version" value="1.8" />
+
+          <property name="sun.cpu.endian" value="little" />
+
+          <property name="didit.desc" value="Running our tests against your implementation" />
+
+          <property name="sun.os.patch.level" value="Service Pack 1" />
+
+          <property name="java.io.tmpdir" value="C:\Users\accl\AppData\Local\Temp\" />
+
+          <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+
+          <property name="os.arch" value="amd64" />
+
+          <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+
+          <property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_101\lib\ext;C:\Windows\Sun\Java\lib\ext" />
+
+          <property name="user.dir" value="C:\Users\accl\workspace\ps2-tweets" />
+
+          <property name="line.separator" value="&#xd;&#xa;" />
+
+          <property name="zipfile" value="my-submission.zip" />
+
+          <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+
+          <property name="problem.set" value="ps2" />
+
+          <property name="basedir" value="C:\Users\accl\workspace\ps2-tweets" />
+
+          <property name="ant.java.version" value="1.8" />
+
+          <property name="ant.core.lib" value="C:\Users\accl\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant.jar" />
+
+          <property name="file.encoding" value="Cp1252" />
+
+          <property name="java.specification.version" value="1.8" />
+
+          <property name="grader.dir" value=".grader" />
+
+          <property name="ant.project.invoked-targets" value="all" />
+
+      </properties>
+
+      <testcase classname="twitter.staff.GradingFilterTest" name="testContainingPunctuation" time="0.002" />
+
+      <testcase classname="twitter.staff.GradingFilterTest" name="testWrittenByUnderscores" time="0.001" />
+
+      <testcase classname="twitter.staff.GradingFilterTest" name="testContainingNoResults" time="0.0" />
+
+      <testcase classname="twitter.staff.GradingFilterTest" name="testContainingNoWordsToCheck" time="0.001" />
+
+      <testcase classname="twitter.staff.GradingFilterTest" name="testContainingMultipleSearchWords" time="0.0" />
+
+      <testcase classname="twitter.staff.GradingFilterTest" name="testContainingNoFullWordMatch" time="0.006">
+          <failure message="expected empty list" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: expected empty list
+	at twitter.staff.GradingFilterTest.testContainingNoFullWordMatch(GradingFilterTest.java:346)
+</failure>
+
+      </testcase>
+
+      <testcase classname="twitter.staff.GradingFilterTest" name="testInTimespanEmptyList" time="0.002" />
+
+      <testcase classname="twitter.staff.GradingFilterTest" name="testWrittenByEmptyList" time="0.001" />
+
+      <testcase classname="twitter.staff.GradingFilterTest" name="testInTimespanSingleTweetTimespanInexact" time="0.0" />
+
+      <testcase classname="twitter.staff.GradingFilterTest" name="testContainingMustBeCaseInsensitive" time="0.0" />
+
+      <testcase classname="twitter.staff.GradingFilterTest" name="testContainingEmptyList" time="0.0" />
+
+      <testcase classname="twitter.staff.GradingFilterTest" name="testWrittenByMustBeCaseInsensitive" time="0.001">
+          <failure message="expected non-empty list" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: expected non-empty list
+	at twitter.staff.GradingFilterTest.testWrittenByMustBeCaseInsensitive(GradingFilterTest.java:96)
+</failure>
+
+      </testcase>
+
+      <testcase classname="twitter.staff.GradingFilterTest" name="testContainingSingleSearchWordSingleResult" time="0.0" />
+
+      <testcase classname="twitter.staff.GradingFilterTest" name="testInTimespanNoTweetsInSpan" time="0.002" />
+
+      <testcase classname="twitter.staff.GradingFilterTest" name="testInTimespanMultipleTweetsInexact" time="0.0" />
+
+      <testcase classname="twitter.staff.GradingFilterTest" name="testContainingSingleSearchWordMultipleResult" time="0.0" />
+
+      <testcase classname="twitter.staff.GradingFilterTest" name="testWrittenByAuthorNotFound" time="0.0" />
+
+      <testcase classname="twitter.staff.GradingFilterTest" name="testInTimespanTweetsOutOfOrder" time="0.001">
+          <failure message="expected non-empty list" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: expected non-empty list
+	at twitter.staff.GradingFilterTest.testInTimespanTweetsOutOfOrder(GradingFilterTest.java:210)
+</failure>
+
+      </testcase>
+
+      <testcase classname="twitter.staff.GradingFilterTest" name="testInTimespanMultipleTweetsExact" time="0.0">
+          <failure message="list size expected:&lt;3&gt; but was:&lt;1&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: list size expected:&lt;3&gt; but was:&lt;1&gt;
+	at twitter.staff.GradingFilterTest.testInTimespanMultipleTweetsExact(GradingFilterTest.java:197)
+</failure>
+
+      </testcase>
+
+      <testcase classname="twitter.staff.GradingFilterTest" name="testWrittenByAuthorFound" time="0.0" />
+
+      <testcase classname="twitter.staff.GradingFilterTest" name="testInTimespanSingleTweetTimespanExact" time="0.001">
+          <failure message="expected non-empty list" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: expected non-empty list
+	at twitter.staff.GradingFilterTest.testInTimespanSingleTweetTimespanExact(GradingFilterTest.java:165)
+</failure>
+
+      </testcase>
+
+      <system-out><![CDATA[]]></system-out>
+
+      <system-err><![CDATA[]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="7" hostname="LT13O-0005" id="7" name="GradingSocialNetworkTest" package="twitter.staff" skipped="0" tests="14" time="0.107" timestamp="2016-11-01T10:58:41">
+      <properties>
+          <property name="java.vendor" value="Oracle Corporation" />
+
+          <property name="sun.java.launcher" value="SUN_STANDARD" />
+
+          <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+
+          <property name="build.sysclasspath" value="ignore" />
+
+          <property name="os.name" value="Windows 7" />
+
+          <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_101\lib\resources.jar;C:\Program Files\Java\jre1.8.0_101\lib\rt.jar;C:\Program Files\Java\jre1.8.0_101\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_101\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_101\lib\jce.jar;C:\Program Files\Java\jre1.8.0_101\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_101\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_101\classes" />
+
+          <property name="sun.desktop" value="windows" />
+
+          <property name="final.grading" value="true" />
+
+          <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+
+          <property name="ant.home" value="C:\Users\accl\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327" />
+
+          <property name="java.runtime.version" value="1.8.0_101-b13" />
+
+          <property name="user.name" value="accl" />
+
+          <property name="ant.build.javac.target" value="1.8" />
+
+          <property name="user.language" value="es" />
+
+          <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_101\bin" />
+
+          <property name="grader.report.file" value="my-grader-report.xml" />
+
+          <property name="ant.project.default-target" value="all" />
+
+          <property name="java.version" value="1.8.0_101" />
+
+          <property name="user.timezone" value="" />
+
+          <property name="sun.arch.data.model" value="64" />
+
+          <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.8.0_101\lib\endorsed" />
+
+          <property name="sun.cpu.isalist" value="amd64" />
+
+          <property name="sun.jnu.encoding" value="Cp1252" />
+
+          <property name="file.encoding.pkg" value="sun.io" />
+
+          <property name="file.separator" value="\" />
+
+          <property name="java.specification.name" value="Java Platform API Specification" />
+
+          <property name="java.class.version" value="52.0" />
+
+          <property name="user.country" value="ES" />
+
+          <property name="java.home" value="C:\Program Files\Java\jre1.8.0_101" />
+
+          <property name="java.vm.info" value="mixed mode" />
+
+          <property name="ant.file" value="C:\Users\accl\workspace\ps2-tweets\grader.xml" />
+
+          <property name="os.version" value="6.1" />
+
+          <property name="final.grader.jar" value="ps2-final-grader.jar" />
+
+          <property name="path.separator" value=";" />
+
+          <property name="java.vm.version" value="25.101-b13" />
+
+          <property name="user.variant" value="" />
+
+          <property name="ant.library.dir" value="C:\Users\accl\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib" />
+
+          <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+
+          <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+
+          <property name="user.script" value="" />
+
+          <property name="user.home" value="C:\Users\accl" />
+
+          <property name="java.specification.vendor" value="Oracle Corporation" />
+
+          <property name="which.tests.ran" value="BETA + FINAL" />
+
+          <property name="java.library.path" value="C:\Program Files\Java\jre1.8.0_101\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_101/bin/server;C:/Program Files/Java/jre1.8.0_101/bin;C:/Program Files/Java/jre1.8.0_101/lib/amd64;C:\adb_tool;C:\Program Files (x86)\Mozilla Firefox;C:\PROGRAMDATA\ORACLE\JAVA\JAVAPATH;C:\APP\ORACLE11\PRODUCT\11.2.0\CLIENT_1\BIN;C:\PROGRAM FILES (X86)\INTEL\ICLS CLIENT\;C:\PROGRAM FILES\INTEL\ICLS CLIENT\;C:\PROGRAM FILES\DELL\DW WLAN CARD;C:\Windows\SYSTEM32;C:\Windows;C:\Windows\SYSTEM32\WBEM;C:\Windows\SYSTEM32\WINDOWSPOWERSHELL\V1.0\;;C:\PROGRAM FILES\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\DAL;C:\PROGRAM FILES\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\IPT;C:\PROGRAM FILES (X86)\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\DAL;C:\PROGRAM FILES (X86)\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\IPT;C:\PROGRAM FILES (X86)\GS\GS9.02\BIN;C:\PROGRAM FILES\COMMON FILES\ALADDIN SHARED\ETOKEN\PKICLIENT\X64;C:\PROGRAM FILES\COMMON FILES\ALADDIN SHARED\ETOKEN\PKICLIENT\X32;C:\PROGRAM FILES (X86)\INTEL\OPENCL SDK\2.0\BIN\X86;C:\PROGRAM FILES (X86)\INTEL\OPENCL SDK\2.0\BIN\X64;C:\Program Files\WIDCOMM\Bluetooth Software\;C:\Program Files\WIDCOMM\Bluetooth Sof;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\TortoiseSVN\bin;c:\users\accl\appdata\local\enthought\canopy\user\scripts;C:\Users\accl\AppData\Local\Enthought\Canopy\User;C:\Users\accl\AppData\Local\Enthought\Canopy\User\Scripts;C:\Anaconda2;C:\Anaconda2\Scripts;C:\Anaconda2\Library\bin;C:\Anaconda22;C:\Anaconda22\Scripts;C:\Anaconda22\Library\bin;C:\Program Files (x86)\Calibre2\;C:\Users\accl\AppData\Local\Programs\Python\Python35-32\Scripts\;C:\Users\accl\AppData\Local\Programs\Python\Python35-32\;c:\users\accl\appdata\local\enthought\canopy\user\scripts;C:\Users\accl\AppData\Local\Enthought\Canopy\User;C:\Users\accl\AppData\Local\Enthought\Canopy\User\Scripts;C:\Users\accl\Desktop;;." />
+
+          <property name="java.vendor.url" value="http://java.oracle.com/" />
+
+          <property name="java.vm.vendor" value="Oracle Corporation" />
+
+          <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+
+          <property name="beta.grader.jar" value="ps2-beta-grader.jar" />
+
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner twitter.staff.GradingSocialNetworkTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\accl\workspace\ps2-tweets\.grader\TEST-twitter.staff.GradingSocialNetworkTest.xml crashfile=C:\Users\accl\workspace\ps2-tweets\.grader\junitvmwatcher9190166917820225321.properties propsfile=C:\Users\accl\workspace\ps2-tweets\.grader\junit870213897421114878.properties" />
+
+          <property name="java.class.path" value="C:\Users\accl\workspace\ps2-tweets\lib\junit-4.12.jar;C:\Users\accl\workspace\ps2-tweets\lib\hamcrest-core-1.3.jar;C:\Users\accl\workspace\ps2-tweets\.grader\bin-tests-final;C:\Users\accl\workspace\ps2-tweets\.grader\bin-impls-student;C:\Users\accl\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-launcher.jar;C:\Users\accl\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant.jar;C:\Users\accl\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-junit.jar;C:\Users\accl\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-junit4.jar" />
+
+          <property name="ant.version" value="Apache Ant(TM) version 1.9.6 compiled on June 29 2015" />
+
+          <property name="project.name" value="ps2-tweets" />
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+
+          <property name="java.vm.specification.version" value="1.8" />
+
+          <property name="sun.cpu.endian" value="little" />
+
+          <property name="didit.desc" value="Running our tests against your implementation" />
+
+          <property name="sun.os.patch.level" value="Service Pack 1" />
+
+          <property name="java.io.tmpdir" value="C:\Users\accl\AppData\Local\Temp\" />
+
+          <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+
+          <property name="os.arch" value="amd64" />
+
+          <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+
+          <property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_101\lib\ext;C:\Windows\Sun\Java\lib\ext" />
+
+          <property name="user.dir" value="C:\Users\accl\workspace\ps2-tweets" />
+
+          <property name="line.separator" value="&#xd;&#xa;" />
+
+          <property name="zipfile" value="my-submission.zip" />
+
+          <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+
+          <property name="problem.set" value="ps2" />
+
+          <property name="basedir" value="C:\Users\accl\workspace\ps2-tweets" />
+
+          <property name="ant.java.version" value="1.8" />
+
+          <property name="ant.core.lib" value="C:\Users\accl\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant.jar" />
+
+          <property name="file.encoding" value="Cp1252" />
+
+          <property name="java.specification.version" value="1.8" />
+
+          <property name="grader.dir" value=".grader" />
+
+          <property name="ant.project.invoked-targets" value="all" />
+
+      </properties>
+
+      <testcase classname="twitter.staff.GradingSocialNetworkTest" name="testInfluencersGraphOneUserNoFollowing" time="0.002" />
+
+      <testcase classname="twitter.staff.GradingSocialNetworkTest" name="testInfluencersTwoUsersOneFollowing" time="0.004">
+          <failure message="list size expected:&lt;2&gt; but was:&lt;1&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: list size expected:&lt;2&gt; but was:&lt;1&gt;
+	at twitter.staff.GradingSocialNetworkTest.testInfluencersTwoUsersOneFollowing(GradingSocialNetworkTest.java:221)
+</failure>
+
+      </testcase>
+
+      <testcase classname="twitter.staff.GradingSocialNetworkTest" name="testGuessFollowsGraphUserMentionsSelf" time="0.002" />
+
+      <testcase classname="twitter.staff.GradingSocialNetworkTest" name="testInfluencersMultipleUsersSomeSameFollowerCounts" time="0.001">
+          <failure message="incorrect user at index 0" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: incorrect user at index 0
+	at twitter.staff.GradingSocialNetworkTest.testInfluencersMultipleUsersSomeSameFollowerCounts(GradingSocialNetworkTest.java:302)
+</failure>
+
+      </testcase>
+
+      <testcase classname="twitter.staff.GradingSocialNetworkTest" name="testGuessFollowsGraphEmptyList" time="0.0" />
+
+      <testcase classname="twitter.staff.GradingSocialNetworkTest" name="testInfluencersMultipleUsersAllSameFollowerCounts" time="0.0" />
+
+      <testcase classname="twitter.staff.GradingSocialNetworkTest" name="testInfluencersEmptyGraph" time="0.0" />
+
+      <testcase classname="twitter.staff.GradingSocialNetworkTest" name="testInfluencersMultipleUsersAllDifferentFollowerCounts" time="0.0">
+          <failure message="list size expected:&lt;4&gt; but was:&lt;3&gt;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: list size expected:&lt;4&gt; but was:&lt;3&gt;
+	at twitter.staff.GradingSocialNetworkTest.testInfluencersMultipleUsersAllDifferentFollowerCounts(GradingSocialNetworkTest.java:256)
+</failure>
+
+      </testcase>
+
+      <testcase classname="twitter.staff.GradingSocialNetworkTest" name="testGuessFollowsGraphSingleTweetAtMention" time="0.001">
+          <failure message="missing follow(s)" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: missing follow(s)
+	at twitter.staff.GradingSocialNetworkTest.testGuessFollowsGraphSingleTweetAtMention(GradingSocialNetworkTest.java:96)
+</failure>
+
+      </testcase>
+
+      <testcase classname="twitter.staff.GradingSocialNetworkTest" name="testGuessFollowsGraphMustHaveNoNonexistentUsers" time="0.001">
+          <failure message="unexpected user(s) in map" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: unexpected user(s) in map
+	at twitter.staff.GradingSocialNetworkTest.testGuessFollowsGraphMustHaveNoNonexistentUsers(GradingSocialNetworkTest.java:173)
+</failure>
+
+      </testcase>
+
+      <testcase classname="twitter.staff.GradingSocialNetworkTest" name="testGuessFollowsGraphMustBeCaseInsensitive" time="0.002">
+          <failure message="missing follow(s)" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: missing follow(s)
+	at twitter.staff.GradingSocialNetworkTest.testGuessFollowsGraphMustBeCaseInsensitive(GradingSocialNetworkTest.java:117)
+</failure>
+
+      </testcase>
+
+      <testcase classname="twitter.staff.GradingSocialNetworkTest" name="testGuessFollowsGraphNoConnections" time="0.0" />
+
+      <testcase classname="twitter.staff.GradingSocialNetworkTest" name="testGuessFollowsGraphHasConnections" time="0.0">
+          <failure message="missing follow(s)" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: missing follow(s)
+	at twitter.staff.GradingSocialNetworkTest.testGuessFollowsGraphHasConnections(GradingSocialNetworkTest.java:138)
+</failure>
+
+      </testcase>
+
+      <testcase classname="twitter.staff.GradingSocialNetworkTest" name="testInfluencersMustBeCaseInsensitive" time="0.0" />
+
+      <system-out><![CDATA[]]></system-out>
+
+      <system-err><![CDATA[]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="LT13O-0005" id="8" name="OriginalExtractTest" package="twitter.staff" skipped="0" tests="3" time="0.116" timestamp="2016-11-01T10:58:34">
+      <properties>
+          <property name="java.vendor" value="Oracle Corporation" />
+
+          <property name="sun.java.launcher" value="SUN_STANDARD" />
+
+          <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+
+          <property name="build.sysclasspath" value="ignore" />
+
+          <property name="os.name" value="Windows 7" />
+
+          <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_101\lib\resources.jar;C:\Program Files\Java\jre1.8.0_101\lib\rt.jar;C:\Program Files\Java\jre1.8.0_101\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_101\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_101\lib\jce.jar;C:\Program Files\Java\jre1.8.0_101\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_101\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_101\classes" />
+
+          <property name="sun.desktop" value="windows" />
+
+          <property name="final.grading" value="true" />
+
+          <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+
+          <property name="ant.home" value="C:\Users\accl\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327" />
+
+          <property name="java.runtime.version" value="1.8.0_101-b13" />
+
+          <property name="user.name" value="accl" />
+
+          <property name="ant.build.javac.target" value="1.8" />
+
+          <property name="user.language" value="es" />
+
+          <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_101\bin" />
+
+          <property name="grader.report.file" value="my-grader-report.xml" />
+
+          <property name="ant.project.default-target" value="all" />
+
+          <property name="java.version" value="1.8.0_101" />
+
+          <property name="user.timezone" value="" />
+
+          <property name="sun.arch.data.model" value="64" />
+
+          <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.8.0_101\lib\endorsed" />
+
+          <property name="sun.cpu.isalist" value="amd64" />
+
+          <property name="sun.jnu.encoding" value="Cp1252" />
+
+          <property name="file.encoding.pkg" value="sun.io" />
+
+          <property name="file.separator" value="\" />
+
+          <property name="java.specification.name" value="Java Platform API Specification" />
+
+          <property name="java.class.version" value="52.0" />
+
+          <property name="user.country" value="ES" />
+
+          <property name="java.home" value="C:\Program Files\Java\jre1.8.0_101" />
+
+          <property name="java.vm.info" value="mixed mode" />
+
+          <property name="ant.file" value="C:\Users\accl\workspace\ps2-tweets\grader.xml" />
+
+          <property name="os.version" value="6.1" />
+
+          <property name="final.grader.jar" value="ps2-final-grader.jar" />
+
+          <property name="path.separator" value=";" />
+
+          <property name="java.vm.version" value="25.101-b13" />
+
+          <property name="user.variant" value="" />
+
+          <property name="ant.library.dir" value="C:\Users\accl\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib" />
+
+          <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+
+          <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+
+          <property name="user.script" value="" />
+
+          <property name="user.home" value="C:\Users\accl" />
+
+          <property name="java.specification.vendor" value="Oracle Corporation" />
+
+          <property name="which.tests.ran" value="BETA + FINAL" />
+
+          <property name="java.library.path" value="C:\Program Files\Java\jre1.8.0_101\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_101/bin/server;C:/Program Files/Java/jre1.8.0_101/bin;C:/Program Files/Java/jre1.8.0_101/lib/amd64;C:\adb_tool;C:\Program Files (x86)\Mozilla Firefox;C:\PROGRAMDATA\ORACLE\JAVA\JAVAPATH;C:\APP\ORACLE11\PRODUCT\11.2.0\CLIENT_1\BIN;C:\PROGRAM FILES (X86)\INTEL\ICLS CLIENT\;C:\PROGRAM FILES\INTEL\ICLS CLIENT\;C:\PROGRAM FILES\DELL\DW WLAN CARD;C:\Windows\SYSTEM32;C:\Windows;C:\Windows\SYSTEM32\WBEM;C:\Windows\SYSTEM32\WINDOWSPOWERSHELL\V1.0\;;C:\PROGRAM FILES\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\DAL;C:\PROGRAM FILES\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\IPT;C:\PROGRAM FILES (X86)\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\DAL;C:\PROGRAM FILES (X86)\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\IPT;C:\PROGRAM FILES (X86)\GS\GS9.02\BIN;C:\PROGRAM FILES\COMMON FILES\ALADDIN SHARED\ETOKEN\PKICLIENT\X64;C:\PROGRAM FILES\COMMON FILES\ALADDIN SHARED\ETOKEN\PKICLIENT\X32;C:\PROGRAM FILES (X86)\INTEL\OPENCL SDK\2.0\BIN\X86;C:\PROGRAM FILES (X86)\INTEL\OPENCL SDK\2.0\BIN\X64;C:\Program Files\WIDCOMM\Bluetooth Software\;C:\Program Files\WIDCOMM\Bluetooth Sof;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\TortoiseSVN\bin;c:\users\accl\appdata\local\enthought\canopy\user\scripts;C:\Users\accl\AppData\Local\Enthought\Canopy\User;C:\Users\accl\AppData\Local\Enthought\Canopy\User\Scripts;C:\Anaconda2;C:\Anaconda2\Scripts;C:\Anaconda2\Library\bin;C:\Anaconda22;C:\Anaconda22\Scripts;C:\Anaconda22\Library\bin;C:\Program Files (x86)\Calibre2\;C:\Users\accl\AppData\Local\Programs\Python\Python35-32\Scripts\;C:\Users\accl\AppData\Local\Programs\Python\Python35-32\;c:\users\accl\appdata\local\enthought\canopy\user\scripts;C:\Users\accl\AppData\Local\Enthought\Canopy\User;C:\Users\accl\AppData\Local\Enthought\Canopy\User\Scripts;C:\Users\accl\Desktop;;." />
+
+          <property name="java.vendor.url" value="http://java.oracle.com/" />
+
+          <property name="java.vm.vendor" value="Oracle Corporation" />
+
+          <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+
+          <property name="beta.grader.jar" value="ps2-beta-grader.jar" />
+
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner twitter.staff.OriginalExtractTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\accl\workspace\ps2-tweets\.grader\TEST-twitter.staff.OriginalExtractTest.xml crashfile=C:\Users\accl\workspace\ps2-tweets\.grader\junitvmwatcher5046784188816110319.properties propsfile=C:\Users\accl\workspace\ps2-tweets\.grader\junit3119471081969589924.properties" />
+
+          <property name="java.class.path" value="C:\Users\accl\workspace\ps2-tweets\lib\junit-4.12.jar;C:\Users\accl\workspace\ps2-tweets\lib\hamcrest-core-1.3.jar;C:\Users\accl\workspace\ps2-tweets\.grader\bin-tests-beta;C:\Users\accl\workspace\ps2-tweets\.grader\bin-impls-student;C:\Users\accl\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-launcher.jar;C:\Users\accl\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant.jar;C:\Users\accl\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-junit.jar;C:\Users\accl\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-junit4.jar" />
+
+          <property name="ant.version" value="Apache Ant(TM) version 1.9.6 compiled on June 29 2015" />
+
+          <property name="project.name" value="ps2-tweets" />
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+
+          <property name="java.vm.specification.version" value="1.8" />
+
+          <property name="sun.cpu.endian" value="little" />
+
+          <property name="didit.desc" value="Running the tests we gave you with the problem set on your implementation." />
+
+          <property name="sun.os.patch.level" value="Service Pack 1" />
+
+          <property name="java.io.tmpdir" value="C:\Users\accl\AppData\Local\Temp\" />
+
+          <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+
+          <property name="os.arch" value="amd64" />
+
+          <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+
+          <property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_101\lib\ext;C:\Windows\Sun\Java\lib\ext" />
+
+          <property name="user.dir" value="C:\Users\accl\workspace\ps2-tweets" />
+
+          <property name="line.separator" value="&#xd;&#xa;" />
+
+          <property name="zipfile" value="my-submission.zip" />
+
+          <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+
+          <property name="problem.set" value="ps2" />
+
+          <property name="basedir" value="C:\Users\accl\workspace\ps2-tweets" />
+
+          <property name="ant.java.version" value="1.8" />
+
+          <property name="ant.core.lib" value="C:\Users\accl\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant.jar" />
+
+          <property name="file.encoding" value="Cp1252" />
+
+          <property name="java.specification.version" value="1.8" />
+
+          <property name="grader.dir" value=".grader" />
+
+          <property name="ant.project.invoked-targets" value="all" />
+
+      </properties>
+
+      <testcase classname="twitter.staff.OriginalExtractTest" name="testGetMentionedUsersNoMention" time="0.002" />
+
+      <testcase classname="twitter.staff.OriginalExtractTest" name="testGetTimespanTwoTweets" time="0.001" />
+
+      <testcase classname="twitter.staff.OriginalExtractTest" name="testAssertionsEnabled" time="0.0" />
+
+      <system-out><![CDATA[]]></system-out>
+
+      <system-err><![CDATA[]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="LT13O-0005" id="9" name="OriginalFilterTest" package="twitter.staff" skipped="0" tests="4" time="0.087" timestamp="2016-11-01T10:58:35">
+      <properties>
+          <property name="java.vendor" value="Oracle Corporation" />
+
+          <property name="sun.java.launcher" value="SUN_STANDARD" />
+
+          <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+
+          <property name="build.sysclasspath" value="ignore" />
+
+          <property name="os.name" value="Windows 7" />
+
+          <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_101\lib\resources.jar;C:\Program Files\Java\jre1.8.0_101\lib\rt.jar;C:\Program Files\Java\jre1.8.0_101\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_101\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_101\lib\jce.jar;C:\Program Files\Java\jre1.8.0_101\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_101\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_101\classes" />
+
+          <property name="sun.desktop" value="windows" />
+
+          <property name="final.grading" value="true" />
+
+          <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+
+          <property name="ant.home" value="C:\Users\accl\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327" />
+
+          <property name="java.runtime.version" value="1.8.0_101-b13" />
+
+          <property name="user.name" value="accl" />
+
+          <property name="ant.build.javac.target" value="1.8" />
+
+          <property name="user.language" value="es" />
+
+          <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_101\bin" />
+
+          <property name="grader.report.file" value="my-grader-report.xml" />
+
+          <property name="ant.project.default-target" value="all" />
+
+          <property name="java.version" value="1.8.0_101" />
+
+          <property name="user.timezone" value="" />
+
+          <property name="sun.arch.data.model" value="64" />
+
+          <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.8.0_101\lib\endorsed" />
+
+          <property name="sun.cpu.isalist" value="amd64" />
+
+          <property name="sun.jnu.encoding" value="Cp1252" />
+
+          <property name="file.encoding.pkg" value="sun.io" />
+
+          <property name="file.separator" value="\" />
+
+          <property name="java.specification.name" value="Java Platform API Specification" />
+
+          <property name="java.class.version" value="52.0" />
+
+          <property name="user.country" value="ES" />
+
+          <property name="java.home" value="C:\Program Files\Java\jre1.8.0_101" />
+
+          <property name="java.vm.info" value="mixed mode" />
+
+          <property name="ant.file" value="C:\Users\accl\workspace\ps2-tweets\grader.xml" />
+
+          <property name="os.version" value="6.1" />
+
+          <property name="final.grader.jar" value="ps2-final-grader.jar" />
+
+          <property name="path.separator" value=";" />
+
+          <property name="java.vm.version" value="25.101-b13" />
+
+          <property name="user.variant" value="" />
+
+          <property name="ant.library.dir" value="C:\Users\accl\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib" />
+
+          <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+
+          <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+
+          <property name="user.script" value="" />
+
+          <property name="user.home" value="C:\Users\accl" />
+
+          <property name="java.specification.vendor" value="Oracle Corporation" />
+
+          <property name="which.tests.ran" value="BETA + FINAL" />
+
+          <property name="java.library.path" value="C:\Program Files\Java\jre1.8.0_101\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_101/bin/server;C:/Program Files/Java/jre1.8.0_101/bin;C:/Program Files/Java/jre1.8.0_101/lib/amd64;C:\adb_tool;C:\Program Files (x86)\Mozilla Firefox;C:\PROGRAMDATA\ORACLE\JAVA\JAVAPATH;C:\APP\ORACLE11\PRODUCT\11.2.0\CLIENT_1\BIN;C:\PROGRAM FILES (X86)\INTEL\ICLS CLIENT\;C:\PROGRAM FILES\INTEL\ICLS CLIENT\;C:\PROGRAM FILES\DELL\DW WLAN CARD;C:\Windows\SYSTEM32;C:\Windows;C:\Windows\SYSTEM32\WBEM;C:\Windows\SYSTEM32\WINDOWSPOWERSHELL\V1.0\;;C:\PROGRAM FILES\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\DAL;C:\PROGRAM FILES\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\IPT;C:\PROGRAM FILES (X86)\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\DAL;C:\PROGRAM FILES (X86)\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\IPT;C:\PROGRAM FILES (X86)\GS\GS9.02\BIN;C:\PROGRAM FILES\COMMON FILES\ALADDIN SHARED\ETOKEN\PKICLIENT\X64;C:\PROGRAM FILES\COMMON FILES\ALADDIN SHARED\ETOKEN\PKICLIENT\X32;C:\PROGRAM FILES (X86)\INTEL\OPENCL SDK\2.0\BIN\X86;C:\PROGRAM FILES (X86)\INTEL\OPENCL SDK\2.0\BIN\X64;C:\Program Files\WIDCOMM\Bluetooth Software\;C:\Program Files\WIDCOMM\Bluetooth Sof;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\TortoiseSVN\bin;c:\users\accl\appdata\local\enthought\canopy\user\scripts;C:\Users\accl\AppData\Local\Enthought\Canopy\User;C:\Users\accl\AppData\Local\Enthought\Canopy\User\Scripts;C:\Anaconda2;C:\Anaconda2\Scripts;C:\Anaconda2\Library\bin;C:\Anaconda22;C:\Anaconda22\Scripts;C:\Anaconda22\Library\bin;C:\Program Files (x86)\Calibre2\;C:\Users\accl\AppData\Local\Programs\Python\Python35-32\Scripts\;C:\Users\accl\AppData\Local\Programs\Python\Python35-32\;c:\users\accl\appdata\local\enthought\canopy\user\scripts;C:\Users\accl\AppData\Local\Enthought\Canopy\User;C:\Users\accl\AppData\Local\Enthought\Canopy\User\Scripts;C:\Users\accl\Desktop;;." />
+
+          <property name="java.vendor.url" value="http://java.oracle.com/" />
+
+          <property name="java.vm.vendor" value="Oracle Corporation" />
+
+          <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+
+          <property name="beta.grader.jar" value="ps2-beta-grader.jar" />
+
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner twitter.staff.OriginalFilterTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\accl\workspace\ps2-tweets\.grader\TEST-twitter.staff.OriginalFilterTest.xml crashfile=C:\Users\accl\workspace\ps2-tweets\.grader\junitvmwatcher6881178039673390352.properties propsfile=C:\Users\accl\workspace\ps2-tweets\.grader\junit5059993443761624881.properties" />
+
+          <property name="java.class.path" value="C:\Users\accl\workspace\ps2-tweets\lib\junit-4.12.jar;C:\Users\accl\workspace\ps2-tweets\lib\hamcrest-core-1.3.jar;C:\Users\accl\workspace\ps2-tweets\.grader\bin-tests-beta;C:\Users\accl\workspace\ps2-tweets\.grader\bin-impls-student;C:\Users\accl\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-launcher.jar;C:\Users\accl\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant.jar;C:\Users\accl\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-junit.jar;C:\Users\accl\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-junit4.jar" />
+
+          <property name="ant.version" value="Apache Ant(TM) version 1.9.6 compiled on June 29 2015" />
+
+          <property name="project.name" value="ps2-tweets" />
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+
+          <property name="java.vm.specification.version" value="1.8" />
+
+          <property name="sun.cpu.endian" value="little" />
+
+          <property name="didit.desc" value="Running the tests we gave you with the problem set on your implementation." />
+
+          <property name="sun.os.patch.level" value="Service Pack 1" />
+
+          <property name="java.io.tmpdir" value="C:\Users\accl\AppData\Local\Temp\" />
+
+          <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+
+          <property name="os.arch" value="amd64" />
+
+          <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+
+          <property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_101\lib\ext;C:\Windows\Sun\Java\lib\ext" />
+
+          <property name="user.dir" value="C:\Users\accl\workspace\ps2-tweets" />
+
+          <property name="line.separator" value="&#xd;&#xa;" />
+
+          <property name="zipfile" value="my-submission.zip" />
+
+          <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+
+          <property name="problem.set" value="ps2" />
+
+          <property name="basedir" value="C:\Users\accl\workspace\ps2-tweets" />
+
+          <property name="ant.java.version" value="1.8" />
+
+          <property name="ant.core.lib" value="C:\Users\accl\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant.jar" />
+
+          <property name="file.encoding" value="Cp1252" />
+
+          <property name="java.specification.version" value="1.8" />
+
+          <property name="grader.dir" value=".grader" />
+
+          <property name="ant.project.invoked-targets" value="all" />
+
+      </properties>
+
+      <testcase classname="twitter.staff.OriginalFilterTest" name="testContaining" time="0.001" />
+
+      <testcase classname="twitter.staff.OriginalFilterTest" name="testAssertionsEnabled" time="0.0" />
+
+      <testcase classname="twitter.staff.OriginalFilterTest" name="testWrittenByMultipleTweetsSingleResult" time="0.0" />
+
+      <testcase classname="twitter.staff.OriginalFilterTest" name="testInTimespanMultipleTweetsMultipleResults" time="0.001" />
+
+      <system-out><![CDATA[]]></system-out>
+
+      <system-err><![CDATA[]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="0" hostname="LT13O-0005" id="10" name="OriginalSocialNetworkTest" package="twitter.staff" skipped="0" tests="3" time="0.084" timestamp="2016-11-01T10:58:35">
+      <properties>
+          <property name="java.vendor" value="Oracle Corporation" />
+
+          <property name="sun.java.launcher" value="SUN_STANDARD" />
+
+          <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+
+          <property name="build.sysclasspath" value="ignore" />
+
+          <property name="os.name" value="Windows 7" />
+
+          <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_101\lib\resources.jar;C:\Program Files\Java\jre1.8.0_101\lib\rt.jar;C:\Program Files\Java\jre1.8.0_101\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_101\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_101\lib\jce.jar;C:\Program Files\Java\jre1.8.0_101\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_101\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_101\classes" />
+
+          <property name="sun.desktop" value="windows" />
+
+          <property name="final.grading" value="true" />
+
+          <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+
+          <property name="ant.home" value="C:\Users\accl\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327" />
+
+          <property name="java.runtime.version" value="1.8.0_101-b13" />
+
+          <property name="user.name" value="accl" />
+
+          <property name="ant.build.javac.target" value="1.8" />
+
+          <property name="user.language" value="es" />
+
+          <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_101\bin" />
+
+          <property name="grader.report.file" value="my-grader-report.xml" />
+
+          <property name="ant.project.default-target" value="all" />
+
+          <property name="java.version" value="1.8.0_101" />
+
+          <property name="user.timezone" value="" />
+
+          <property name="sun.arch.data.model" value="64" />
+
+          <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.8.0_101\lib\endorsed" />
+
+          <property name="sun.cpu.isalist" value="amd64" />
+
+          <property name="sun.jnu.encoding" value="Cp1252" />
+
+          <property name="file.encoding.pkg" value="sun.io" />
+
+          <property name="file.separator" value="\" />
+
+          <property name="java.specification.name" value="Java Platform API Specification" />
+
+          <property name="java.class.version" value="52.0" />
+
+          <property name="user.country" value="ES" />
+
+          <property name="java.home" value="C:\Program Files\Java\jre1.8.0_101" />
+
+          <property name="java.vm.info" value="mixed mode" />
+
+          <property name="ant.file" value="C:\Users\accl\workspace\ps2-tweets\grader.xml" />
+
+          <property name="os.version" value="6.1" />
+
+          <property name="final.grader.jar" value="ps2-final-grader.jar" />
+
+          <property name="path.separator" value=";" />
+
+          <property name="java.vm.version" value="25.101-b13" />
+
+          <property name="user.variant" value="" />
+
+          <property name="ant.library.dir" value="C:\Users\accl\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib" />
+
+          <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+
+          <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+
+          <property name="user.script" value="" />
+
+          <property name="user.home" value="C:\Users\accl" />
+
+          <property name="java.specification.vendor" value="Oracle Corporation" />
+
+          <property name="which.tests.ran" value="BETA + FINAL" />
+
+          <property name="java.library.path" value="C:\Program Files\Java\jre1.8.0_101\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_101/bin/server;C:/Program Files/Java/jre1.8.0_101/bin;C:/Program Files/Java/jre1.8.0_101/lib/amd64;C:\adb_tool;C:\Program Files (x86)\Mozilla Firefox;C:\PROGRAMDATA\ORACLE\JAVA\JAVAPATH;C:\APP\ORACLE11\PRODUCT\11.2.0\CLIENT_1\BIN;C:\PROGRAM FILES (X86)\INTEL\ICLS CLIENT\;C:\PROGRAM FILES\INTEL\ICLS CLIENT\;C:\PROGRAM FILES\DELL\DW WLAN CARD;C:\Windows\SYSTEM32;C:\Windows;C:\Windows\SYSTEM32\WBEM;C:\Windows\SYSTEM32\WINDOWSPOWERSHELL\V1.0\;;C:\PROGRAM FILES\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\DAL;C:\PROGRAM FILES\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\IPT;C:\PROGRAM FILES (X86)\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\DAL;C:\PROGRAM FILES (X86)\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\IPT;C:\PROGRAM FILES (X86)\GS\GS9.02\BIN;C:\PROGRAM FILES\COMMON FILES\ALADDIN SHARED\ETOKEN\PKICLIENT\X64;C:\PROGRAM FILES\COMMON FILES\ALADDIN SHARED\ETOKEN\PKICLIENT\X32;C:\PROGRAM FILES (X86)\INTEL\OPENCL SDK\2.0\BIN\X86;C:\PROGRAM FILES (X86)\INTEL\OPENCL SDK\2.0\BIN\X64;C:\Program Files\WIDCOMM\Bluetooth Software\;C:\Program Files\WIDCOMM\Bluetooth Sof;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\TortoiseSVN\bin;c:\users\accl\appdata\local\enthought\canopy\user\scripts;C:\Users\accl\AppData\Local\Enthought\Canopy\User;C:\Users\accl\AppData\Local\Enthought\Canopy\User\Scripts;C:\Anaconda2;C:\Anaconda2\Scripts;C:\Anaconda2\Library\bin;C:\Anaconda22;C:\Anaconda22\Scripts;C:\Anaconda22\Library\bin;C:\Program Files (x86)\Calibre2\;C:\Users\accl\AppData\Local\Programs\Python\Python35-32\Scripts\;C:\Users\accl\AppData\Local\Programs\Python\Python35-32\;c:\users\accl\appdata\local\enthought\canopy\user\scripts;C:\Users\accl\AppData\Local\Enthought\Canopy\User;C:\Users\accl\AppData\Local\Enthought\Canopy\User\Scripts;C:\Users\accl\Desktop;;." />
+
+          <property name="java.vendor.url" value="http://java.oracle.com/" />
+
+          <property name="java.vm.vendor" value="Oracle Corporation" />
+
+          <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+
+          <property name="beta.grader.jar" value="ps2-beta-grader.jar" />
+
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner twitter.staff.OriginalSocialNetworkTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\accl\workspace\ps2-tweets\.grader\TEST-twitter.staff.OriginalSocialNetworkTest.xml crashfile=C:\Users\accl\workspace\ps2-tweets\.grader\junitvmwatcher680583988568188285.properties propsfile=C:\Users\accl\workspace\ps2-tweets\.grader\junit8710262266274987090.properties" />
+
+          <property name="java.class.path" value="C:\Users\accl\workspace\ps2-tweets\lib\junit-4.12.jar;C:\Users\accl\workspace\ps2-tweets\lib\hamcrest-core-1.3.jar;C:\Users\accl\workspace\ps2-tweets\.grader\bin-tests-beta;C:\Users\accl\workspace\ps2-tweets\.grader\bin-impls-student;C:\Users\accl\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-launcher.jar;C:\Users\accl\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant.jar;C:\Users\accl\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-junit.jar;C:\Users\accl\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-junit4.jar" />
+
+          <property name="ant.version" value="Apache Ant(TM) version 1.9.6 compiled on June 29 2015" />
+
+          <property name="project.name" value="ps2-tweets" />
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+
+          <property name="java.vm.specification.version" value="1.8" />
+
+          <property name="sun.cpu.endian" value="little" />
+
+          <property name="didit.desc" value="Running the tests we gave you with the problem set on your implementation." />
+
+          <property name="sun.os.patch.level" value="Service Pack 1" />
+
+          <property name="java.io.tmpdir" value="C:\Users\accl\AppData\Local\Temp\" />
+
+          <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+
+          <property name="os.arch" value="amd64" />
+
+          <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+
+          <property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_101\lib\ext;C:\Windows\Sun\Java\lib\ext" />
+
+          <property name="user.dir" value="C:\Users\accl\workspace\ps2-tweets" />
+
+          <property name="line.separator" value="&#xd;&#xa;" />
+
+          <property name="zipfile" value="my-submission.zip" />
+
+          <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+
+          <property name="problem.set" value="ps2" />
+
+          <property name="basedir" value="C:\Users\accl\workspace\ps2-tweets" />
+
+          <property name="ant.java.version" value="1.8" />
+
+          <property name="ant.core.lib" value="C:\Users\accl\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant.jar" />
+
+          <property name="file.encoding" value="Cp1252" />
+
+          <property name="java.specification.version" value="1.8" />
+
+          <property name="grader.dir" value=".grader" />
+
+          <property name="ant.project.invoked-targets" value="all" />
+
+      </properties>
+
+      <testcase classname="twitter.staff.OriginalSocialNetworkTest" name="testGuessFollowsGraphEmpty" time="0.002" />
+
+      <testcase classname="twitter.staff.OriginalSocialNetworkTest" name="testAssertionsEnabled" time="0.001" />
+
+      <testcase classname="twitter.staff.OriginalSocialNetworkTest" name="testInfluencersEmpty" time="0.0" />
+
+      <system-out><![CDATA[]]></system-out>
+
+      <system-err><![CDATA[]]></system-err>
+
+  </testsuite>
+  <testsuite errors="0" failures="8" hostname="LT13O-0005" id="11" name="SocialNetworkTestRunner" package="twitter.staff" skipped="0" tests="14" time="0.261" timestamp="2016-11-01T10:58:43">
+      <properties>
+          <property name="java.vendor" value="Oracle Corporation" />
+
+          <property name="sun.java.launcher" value="SUN_STANDARD" />
+
+          <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+
+          <property name="build.sysclasspath" value="ignore" />
+
+          <property name="os.name" value="Windows 7" />
+
+          <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_101\lib\resources.jar;C:\Program Files\Java\jre1.8.0_101\lib\rt.jar;C:\Program Files\Java\jre1.8.0_101\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_101\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_101\lib\jce.jar;C:\Program Files\Java\jre1.8.0_101\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_101\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_101\classes" />
+
+          <property name="sun.desktop" value="windows" />
+
+          <property name="final.grading" value="true" />
+
+          <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+
+          <property name="ant.home" value="C:\Users\accl\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327" />
+
+          <property name="java.runtime.version" value="1.8.0_101-b13" />
+
+          <property name="user.name" value="accl" />
+
+          <property name="ant.build.javac.target" value="1.8" />
+
+          <property name="user.language" value="es" />
+
+          <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_101\bin" />
+
+          <property name="grader.report.file" value="my-grader-report.xml" />
+
+          <property name="ant.project.default-target" value="all" />
+
+          <property name="java.version" value="1.8.0_101" />
+
+          <property name="user.timezone" value="" />
+
+          <property name="sun.arch.data.model" value="64" />
+
+          <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.8.0_101\lib\endorsed" />
+
+          <property name="sun.cpu.isalist" value="amd64" />
+
+          <property name="sun.jnu.encoding" value="Cp1252" />
+
+          <property name="file.encoding.pkg" value="sun.io" />
+
+          <property name="file.separator" value="\" />
+
+          <property name="java.specification.name" value="Java Platform API Specification" />
+
+          <property name="java.class.version" value="52.0" />
+
+          <property name="user.country" value="ES" />
+
+          <property name="java.home" value="C:\Program Files\Java\jre1.8.0_101" />
+
+          <property name="java.vm.info" value="mixed mode" />
+
+          <property name="ant.file" value="C:\Users\accl\workspace\ps2-tweets\grader.xml" />
+
+          <property name="os.version" value="6.1" />
+
+          <property name="final.grader.jar" value="ps2-final-grader.jar" />
+
+          <property name="path.separator" value=";" />
+
+          <property name="java.vm.version" value="25.101-b13" />
+
+          <property name="user.variant" value="" />
+
+          <property name="ant.library.dir" value="C:\Users\accl\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib" />
+
+          <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+
+          <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+
+          <property name="user.script" value="" />
+
+          <property name="user.home" value="C:\Users\accl" />
+
+          <property name="java.specification.vendor" value="Oracle Corporation" />
+
+          <property name="which.tests.ran" value="BETA + FINAL" />
+
+          <property name="java.library.path" value="C:\Program Files\Java\jre1.8.0_101\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_101/bin/server;C:/Program Files/Java/jre1.8.0_101/bin;C:/Program Files/Java/jre1.8.0_101/lib/amd64;C:\adb_tool;C:\Program Files (x86)\Mozilla Firefox;C:\PROGRAMDATA\ORACLE\JAVA\JAVAPATH;C:\APP\ORACLE11\PRODUCT\11.2.0\CLIENT_1\BIN;C:\PROGRAM FILES (X86)\INTEL\ICLS CLIENT\;C:\PROGRAM FILES\INTEL\ICLS CLIENT\;C:\PROGRAM FILES\DELL\DW WLAN CARD;C:\Windows\SYSTEM32;C:\Windows;C:\Windows\SYSTEM32\WBEM;C:\Windows\SYSTEM32\WINDOWSPOWERSHELL\V1.0\;;C:\PROGRAM FILES\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\DAL;C:\PROGRAM FILES\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\IPT;C:\PROGRAM FILES (X86)\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\DAL;C:\PROGRAM FILES (X86)\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\IPT;C:\PROGRAM FILES (X86)\GS\GS9.02\BIN;C:\PROGRAM FILES\COMMON FILES\ALADDIN SHARED\ETOKEN\PKICLIENT\X64;C:\PROGRAM FILES\COMMON FILES\ALADDIN SHARED\ETOKEN\PKICLIENT\X32;C:\PROGRAM FILES (X86)\INTEL\OPENCL SDK\2.0\BIN\X86;C:\PROGRAM FILES (X86)\INTEL\OPENCL SDK\2.0\BIN\X64;C:\Program Files\WIDCOMM\Bluetooth Software\;C:\Program Files\WIDCOMM\Bluetooth Sof;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\TortoiseSVN\bin;c:\users\accl\appdata\local\enthought\canopy\user\scripts;C:\Users\accl\AppData\Local\Enthought\Canopy\User;C:\Users\accl\AppData\Local\Enthought\Canopy\User\Scripts;C:\Anaconda2;C:\Anaconda2\Scripts;C:\Anaconda2\Library\bin;C:\Anaconda22;C:\Anaconda22\Scripts;C:\Anaconda22\Library\bin;C:\Program Files (x86)\Calibre2\;C:\Users\accl\AppData\Local\Programs\Python\Python35-32\Scripts\;C:\Users\accl\AppData\Local\Programs\Python\Python35-32\;c:\users\accl\appdata\local\enthought\canopy\user\scripts;C:\Users\accl\AppData\Local\Enthought\Canopy\User;C:\Users\accl\AppData\Local\Enthought\Canopy\User\Scripts;C:\Users\accl\Desktop;;." />
+
+          <property name="java.vendor.url" value="http://java.oracle.com/" />
+
+          <property name="java.vm.vendor" value="Oracle Corporation" />
+
+          <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+
+          <property name="beta.grader.jar" value="ps2-beta-grader.jar" />
+
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner twitter.staff.SocialNetworkTestRunner skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\accl\workspace\ps2-tweets\.grader\TEST-twitter.staff.SocialNetworkTestRunner.xml crashfile=C:\Users\accl\workspace\ps2-tweets\.grader\junitvmwatcher9052334200343116249.properties propsfile=C:\Users\accl\workspace\ps2-tweets\.grader\junit7120972022641668394.properties" />
+
+          <property name="java.class.path" value="C:\Users\accl\workspace\ps2-tweets\lib\junit-4.12.jar;C:\Users\accl\workspace\ps2-tweets\lib\hamcrest-core-1.3.jar;C:\Users\accl\workspace\ps2-tweets\.grader\bin-impls-staff-final;C:\Users\accl\workspace\ps2-tweets\.grader\bin-tests-student;C:\Users\accl\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-launcher.jar;C:\Users\accl\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant.jar;C:\Users\accl\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-junit.jar;C:\Users\accl\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant-junit4.jar" />
+
+          <property name="ant.version" value="Apache Ant(TM) version 1.9.6 compiled on June 29 2015" />
+
+          <property name="project.name" value="ps2-tweets" />
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+
+          <property name="java.vm.specification.version" value="1.8" />
+
+          <property name="sun.cpu.endian" value="little" />
+
+          <property name="didit.desc" value="Running your tests against our good and bad implementations" />
+
+          <property name="sun.os.patch.level" value="Service Pack 1" />
+
+          <property name="java.io.tmpdir" value="C:\Users\accl\AppData\Local\Temp\" />
+
+          <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+
+          <property name="os.arch" value="amd64" />
+
+          <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+
+          <property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_101\lib\ext;C:\Windows\Sun\Java\lib\ext" />
+
+          <property name="user.dir" value="C:\Users\accl\workspace\ps2-tweets" />
+
+          <property name="line.separator" value="&#xd;&#xa;" />
+
+          <property name="zipfile" value="my-submission.zip" />
+
+          <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+
+          <property name="problem.set" value="ps2" />
+
+          <property name="basedir" value="C:\Users\accl\workspace\ps2-tweets" />
+
+          <property name="ant.java.version" value="1.8" />
+
+          <property name="ant.core.lib" value="C:\Users\accl\.p2\pool\plugins\org.apache.ant_1.9.6.v201510161327\lib\ant.jar" />
+
+          <property name="file.encoding" value="Cp1252" />
+
+          <property name="java.specification.version" value="1.8" />
+
+          <property name="grader.dir" value=".grader" />
+
+          <property name="ant.project.invoked-targets" value="all" />
+
+      </properties>
+
+      <testcase classname="twitter.staff.SocialNetworkTestRunner" name="yourTests_staffGoodImpl_guessFollowsGraphAlternatingCase" time="0.111">
+          <failure message="Some of your tests failed when run against our correct implementation: 6 tests ran with 3 failures in 86 ms.&#xa;java.lang.AssertionError: null&#xd;&#xa;    at twitter.SocialNetworkTest.testInfluencersDecreasingOrder(SocialNetworkTest.java:105)&#xd;&#xa;    ...&#xd;&#xa;java.lang.AssertionError: null&#xd;&#xa;    at twitter.SocialNetworkTest.testInfluencersNotEmpty(SocialNetworkTest.java:80)&#xd;&#xa;    ...&#xd;&#xa;java.lang.AssertionError: expected alyssa key&#xd;&#xa;    ...&#xd;&#xa;    at twitter.SocialNetworkTest.testGuessFollowsGraph2followers(SocialNetworkTest.java:49)&#xd;&#xa;    ...&#xa;----" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Some of your tests failed when run against our correct implementation: 6 tests ran with 3 failures in 86 ms.
+java.lang.AssertionError: null
+    at twitter.SocialNetworkTest.testInfluencersDecreasingOrder(SocialNetworkTest.java:105)
+    ...
+java.lang.AssertionError: null
+    at twitter.SocialNetworkTest.testInfluencersNotEmpty(SocialNetworkTest.java:80)
+    ...
+java.lang.AssertionError: expected alyssa key
+    ...
+    at twitter.SocialNetworkTest.testGuessFollowsGraph2followers(SocialNetworkTest.java:49)
+    ...
+----
+	at twitter.staff.TestHelpers.assertSuccess(TestHelpers.java:50)
+	at twitter.staff.SocialNetworkTestRunner.yourTests_staffGoodImpl_guessFollowsGraphAlternatingCase(SocialNetworkTestRunner.java:39)
+</failure>
+
+      </testcase>
+
+      <testcase classname="twitter.staff.SocialNetworkTestRunner" name="yourTests_staffGoodImpl_guessFollowsGraphReturnsEmptyNodes" time="0.004" />
+
+      <testcase classname="twitter.staff.SocialNetworkTestRunner" name="yourTests_staffBadImpl_guessFollowsGraphCompleteGraphBug" time="0.002" />
+
+      <testcase classname="twitter.staff.SocialNetworkTestRunner" name="yourTests_staffBadImpl_influencersMustBeCaseInsensitiveBug" time="0.004">
+          <failure message="None of your tests failed when run against our broken implementation: 6 tests ran with 0 failures in 2 ms." type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: None of your tests failed when run against our broken implementation: 6 tests ran with 0 failures in 2 ms.
+	at twitter.staff.TestHelpers.assertFailure(TestHelpers.java:59)
+	at twitter.staff.SocialNetworkTestRunner.yourTests_staffBadImpl_influencersMustBeCaseInsensitiveBug(SocialNetworkTestRunner.java:84)
+</failure>
+
+      </testcase>
+
+      <testcase classname="twitter.staff.SocialNetworkTestRunner" name="yourTests_staffBadImpl_influencersReturnsFirstInRankOnlyBug" time="0.004">
+          <failure message="None of your tests failed when run against our broken implementation: 6 tests ran with 0 failures in 2 ms." type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: None of your tests failed when run against our broken implementation: 6 tests ran with 0 failures in 2 ms.
+	at twitter.staff.TestHelpers.assertFailure(TestHelpers.java:59)
+	at twitter.staff.SocialNetworkTestRunner.yourTests_staffBadImpl_influencersReturnsFirstInRankOnlyBug(SocialNetworkTestRunner.java:94)
+</failure>
+
+      </testcase>
+
+      <testcase classname="twitter.staff.SocialNetworkTestRunner" name="yourTests_staffGoodImpl_guessFollowsGraphReturnsNoEmptyNodes" time="0.003" />
+
+      <testcase classname="twitter.staff.SocialNetworkTestRunner" name="yourTests_staffBadImpl_guessFollowsGraphFollowsInWrongDirectionBug" time="0.003" />
+
+      <testcase classname="twitter.staff.SocialNetworkTestRunner" name="yourTests_staffBadImpl_guessFollowsGraphAddsNonExistentUsersBug" time="0.005">
+          <failure message="None of your tests failed when run against our broken implementation: 6 tests ran with 0 failures in 3 ms." type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: None of your tests failed when run against our broken implementation: 6 tests ran with 0 failures in 3 ms.
+	at twitter.staff.TestHelpers.assertFailure(TestHelpers.java:59)
+	at twitter.staff.SocialNetworkTestRunner.yourTests_staffBadImpl_guessFollowsGraphAddsNonExistentUsersBug(SocialNetworkTestRunner.java:74)
+</failure>
+
+      </testcase>
+
+      <testcase classname="twitter.staff.SocialNetworkTestRunner" name="yourTests_staffGoodImpl_guessFollowsGraphBidirectionalFollowing" time="0.004">
+          <failure message="Some of your tests failed when run against our correct implementation: 6 tests ran with 1 failure in 2 ms.&#xa;java.lang.AssertionError: expected size 2 expected:&lt;2&gt; but was:&lt;4&gt;&#xd;&#xa;    ...&#xd;&#xa;    at twitter.SocialNetworkTest.testGuessFollowsGraph2followers(SocialNetworkTest.java:48)&#xd;&#xa;    ...&#xa;----" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Some of your tests failed when run against our correct implementation: 6 tests ran with 1 failure in 2 ms.
+java.lang.AssertionError: expected size 2 expected:&lt;2&gt; but was:&lt;4&gt;
+    ...
+    at twitter.SocialNetworkTest.testGuessFollowsGraph2followers(SocialNetworkTest.java:48)
+    ...
+----
+	at twitter.staff.TestHelpers.assertSuccess(TestHelpers.java:50)
+	at twitter.staff.SocialNetworkTestRunner.yourTests_staffGoodImpl_guessFollowsGraphBidirectionalFollowing(SocialNetworkTestRunner.java:44)
+</failure>
+
+      </testcase>
+
+      <testcase classname="twitter.staff.SocialNetworkTestRunner" name="yourTests_staffGoodImpl_influencersSameRankArbitraryOrder1" time="0.004" />
+
+      <testcase classname="twitter.staff.SocialNetworkTestRunner" name="yourTests_staffGoodImpl_influencersSameRankArbitraryOrder2" time="0.008" />
+
+      <testcase classname="twitter.staff.SocialNetworkTestRunner" name="yourTests_staffBadImpl_guessFollowsGraphMustBeCaseInsensitiveBug" time="0.004">
+          <failure message="None of your tests failed when run against our broken implementation: 6 tests ran with 0 failures in 2 ms." type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: None of your tests failed when run against our broken implementation: 6 tests ran with 0 failures in 2 ms.
+	at twitter.staff.TestHelpers.assertFailure(TestHelpers.java:59)
+	at twitter.staff.SocialNetworkTestRunner.yourTests_staffBadImpl_guessFollowsGraphMustBeCaseInsensitiveBug(SocialNetworkTestRunner.java:69)
+</failure>
+
+      </testcase>
+
+      <testcase classname="twitter.staff.SocialNetworkTestRunner" name="yourTests_staffBadImpl_guessFollowsGraphSelfMentionBug" time="0.003">
+          <failure message="None of your tests failed when run against our broken implementation: 6 tests ran with 0 failures in 1 ms." type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: None of your tests failed when run against our broken implementation: 6 tests ran with 0 failures in 1 ms.
+	at twitter.staff.TestHelpers.assertFailure(TestHelpers.java:59)
+	at twitter.staff.SocialNetworkTestRunner.yourTests_staffBadImpl_guessFollowsGraphSelfMentionBug(SocialNetworkTestRunner.java:64)
+</failure>
+
+      </testcase>
+
+      <testcase classname="twitter.staff.SocialNetworkTestRunner" name="yourTests_staffBadImpl_influencersPrunesEmptyNodesBug" time="0.003">
+          <failure message="None of your tests failed when run against our broken implementation: 6 tests ran with 0 failures in 2 ms." type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: None of your tests failed when run against our broken implementation: 6 tests ran with 0 failures in 2 ms.
+	at twitter.staff.TestHelpers.assertFailure(TestHelpers.java:59)
+	at twitter.staff.SocialNetworkTestRunner.yourTests_staffBadImpl_influencersPrunesEmptyNodesBug(SocialNetworkTestRunner.java:89)
+</failure>
+
+      </testcase>
+
+      <system-out><![CDATA[test followsgraph {bbitdiddle=[candy], alyssa=[jorlto]}
+test followsgraph {bbitdiddle=[candy], alyssa=[jorlto]}
+test followsgraph {bbitdiddle=[candy], alyssa=[jorlto]}
+test followsgraph {bbitdiddle=[candy], alyssa=[jorlto]}
+test followsgraph {bbitdiddle=[rivest, @candy, in, candy, minutes, #hype, talk, 30], alyssa=[rivest, much?, reasonable, about, @jorlto, jorlto, is, talk, it, to, so]}
+test followsgraph {bbitdiddle=[candy], alyssa=[jorlto]}
+test followsgraph {bbitdiddle=[candy], alyssa=[jorlto]}
+test followsgraph {bbitdiddle=[candy], alyssa=[jorlto]}
+test followsgraph {bbitdiddle=[candy], alyssa=[jorlto]}
+test followsgraph {bbitdiddle=[candy], alyssa=[jorlto]}
+]]></system-out>
+
+      <system-err><![CDATA[]]></system-err>
+
+  </testsuite>
+</testsuites>
